@@ -1,0 +1,13 @@
+
+# Define the constants
+n = 2.5  # in mol
+C_v_m = 12.47  # in J/mol/K
+T_i = 325  # in K
+T_f = 268  # in K
+R = 8.314  # in J/mol/K
+
+# Calculate ΔU
+delta_U = n * C_v_m * (T_f - T_i)
+delta_U /= 1000  # convert to kJ
+
+print(delta_U)

@@ -1,0 +1,13 @@
+
+(* Constants *)
+R = 8.3145; (* J K^-1 mol^-1 *)
+T = 298; (* K *)
+x = 10 / 100; (* m *)
+
+(* Decay constant (lambda) *)
+lambda = x / Log[2];
+
+(* Force *)
+F = (R * T / lambda) / 1000 (* Convert from N to kN *)
+
+F

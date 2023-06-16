@@ -1,0 +1,12 @@
+p = 1.0*10^5; (*Pressure in Pascal*)
+M = 100; (*Molar mass in grams per mole*)
+rhoa = 2.93; (*Density of aragonite in grams per cm^3*)
+rhoc = 2.71; (*Density of calcite in grams per cm^3*)
+
+deltaHmMinusdeltaUm = 
+  p*M*((1/rhoa) - (1/
+       rhoc)); (*Change in enthalpy minus change in internal energy \
+in Pa.cm^3.mol^-1*)
+
+(*Convert the result from Pa.cm^3.mol^-1 to Pa.m^3.mol^-1*)
+deltaHmMinusdeltaUm = deltaHmMinusdeltaUm*10^-6

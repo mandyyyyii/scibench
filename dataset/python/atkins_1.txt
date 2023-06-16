@@ -1,0 +1,17 @@
+
+import numpy as np
+
+# Coefficients of the cubic equation
+coeff = [1, -0.453, 0.0361, -0.00155]
+
+# Solve the cubic equation
+roots = np.roots(coeff)
+
+# Filter out complex roots and get the real root
+real_root = roots[np.isreal(roots)].real[0]
+
+# The molar volume in dm^3 mol^-1 is equal to the real root
+V_m = real_root
+
+print(V_m)
+

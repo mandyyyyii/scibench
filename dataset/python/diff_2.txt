@@ -1,0 +1,12 @@
+
+import numpy as np
+
+# Constants
+Q0 = 50
+r = 3
+
+# Time calculation
+T = np.log(Q0) / 0.03
+
+print(T)
+

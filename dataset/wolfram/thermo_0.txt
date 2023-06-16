@@ -1,0 +1,15 @@
+
+(* Define the constants *)
+n = 3.00;  (* in mol *)
+cp = 27.98;  (* in J/mol/K *)
+Ti = 300.0;  (* in K *)
+Tf = 600.0;  (* in K *)
+Vi = 200.59 / (13.54 * 10^6);  (* in m^3/mol *)
+beta = 1.81 * 10^-4;  (* in K^-1 *)
+Pii = 0.0;  (* in bar *)
+Pf = 2.00;  (* in bar *)
+
+(* Calculate ΔS *)
+deltaS = n * cp * Log[Tf/Ti] - n * Vi * beta * (Pf - Pii) * 10^5
+
+deltaS

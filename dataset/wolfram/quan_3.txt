@@ -1,0 +1,11 @@
+
+(* Define the constants *)
+a = 1;  (* in nm *)
+x = 1.5;  (* in nm *)
+dx = 0.0001;  (* in nm *)
+
+(* Calculate |Psi|^2 * dx *)
+result = (1 / a) * Exp[-2 * Abs[x] / a] * dx
+result *= 1*^6  (* convert to 10^-6 *)
+
+result

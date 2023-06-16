@@ -1,0 +1,15 @@
+
+import scipy.constants as const
+
+# Given parameters
+E_k = 1.77 * const.electron_volt  # kinetic energy in J
+lambda_nm = 305  # wavelength in nm
+
+# Calculations
+E_k_over_hc = E_k / (const.h * const.c)  # energy over hc in m^-1
+one_over_lambda = 1 / (lambda_nm * 1e-9)  # reciprocal of wavelength in m^-1
+
+lambda_max = 1 / (one_over_lambda - E_k_over_hc)  # maximum wavelength in m
+
+print(lambda_max * 1e9)
+

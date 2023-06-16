@@ -1,0 +1,16 @@
+
+G = 6.67*10^-11; (*gravitational constant in Nm^2/kg^2*)
+mSun = 1.99*10^30; (*mass of the sun in kg*)
+tau = 76*365*24*3600; (*period of motion of Halley's comet in seconds*)
+eccentricity = 0.967; (*eccentricity of the comet's orbit*)
+
+(*Calculate semimajor axis*)
+a = ((G*mSun*tau^2)/(4*Pi^2))^(1/3);
+
+(*Calculate minimum distance*)
+rMin = a*(1 - eccentricity);
+
+(*Convert minimum distance from meters to 10^12 meters*)
+rMin10 = rMin/10^10;
+
+rMin10

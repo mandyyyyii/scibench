@@ -1,0 +1,16 @@
+
+import numpy as np
+
+# Constants
+R = 8.3145  # J K^-1 mol^-1
+T = 298  # K
+x = 10 / 100  # m
+
+# Decay constant (lambda)
+lambda_ = x / np.log(2)
+
+# Force
+F = (R * T / lambda_) / 1000  # Convert from N to kN
+
+print(F)
+

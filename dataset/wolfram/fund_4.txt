@@ -1,0 +1,9 @@
+
+(* Given parameters *)
+omega = 2.00; (* final angular velocity in rad/s *)
+omega0 = 3.40; (* initial angular velocity in rad/s *)
+thetaMinusTheta0 = 20.0 * 2 * Pi; (* angular displacement in rad *)
+
+(* Calculations *)
+alpha = (omega^2 - omega0^2) / (2 * thetaMinusTheta0); (* angular acceleration *)
+N[alpha, 5]

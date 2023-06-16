@@ -1,0 +1,14 @@
+
+import numpy as np
+
+# Given parameters
+y0_K = 0.25
+r = 0.71
+t = 2
+K = 80.5  # in millions, since the result should be 46.7 * 10^6 kg
+
+# Calculation
+y2 = K * y0_K / (y0_K + (1 - y0_K) * np.exp(-r * t))
+
+print(y2)
+

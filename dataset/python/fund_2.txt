@@ -1,0 +1,14 @@
+
+# Given parameters
+M = 2.5  # mass in kg
+R = 0.20  # radius in m
+alpha = -24  # angular acceleration in rad/s^2
+t = 2.5  # time in s
+
+# Calculations
+omega = alpha * t  # angular velocity
+I = 0.5 * M * R**2  # moment of inertia
+K = 0.5 * I * omega**2  # kinetic energy
+
+print(K)
+

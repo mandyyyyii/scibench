@@ -1,0 +1,16 @@
+
+(* Define the constants *)
+m = 14100 / (6.022 * 10^23);  (* in g *)
+Vbar = 0.703;  (* in mL/g *)
+rho = 0.998;  (* in g/mL *)
+sbar = 1.91 * 10^-13;  (* in s *)
+eta = 1.002;  (* in g/m.s *)
+
+(* Calculate f *)
+f = m * (1 - Vbar * rho) / sbar;  (* in g/s *)
+
+(* Calculate r *)
+r = f / (6 * Pi * eta);  (* in m *)
+rnm = r * 10^9;  (* convert to nm *)
+
+rnm

@@ -1,0 +1,5 @@
+
+a = 1; (* substitute with actual value if given *)
+Integrate[Exp[-2*x/a], {x, 0, 2}] / a (* the limits of integration are 0 and 2 *)
+result = -0.5 * (Exp[-4] - 1)
+N[result]

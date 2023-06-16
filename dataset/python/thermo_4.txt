@@ -1,0 +1,11 @@
+
+import math
+
+# Define the constants
+C_ratio = 0.157  # 14C/14C_0
+k = math.log(2) / (1.82 * 10**11)  # in s^-1
+
+# Calculate the time
+t = -math.log(C_ratio) / k  # in s
+result=t / 10**11  # in 10^11 s
+print(result)

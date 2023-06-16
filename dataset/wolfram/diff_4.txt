@@ -1,0 +1,9 @@
+
+(*Given parameters*)y0 = 0.25;
+r = 0.71;
+t = 2;
+K = 80; (*in millions,since the result should be 46.7*10^6 kg*)
+
+(*Calculation*)
+y2 = K*y0/(y0 + (1 - y0)*Exp[-r*t]);
+N[y2, 2]

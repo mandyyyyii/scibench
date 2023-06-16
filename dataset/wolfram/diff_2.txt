@@ -1,0 +1,9 @@
+
+(* Constants *)
+Q0 = 50;
+r = 3;
+
+(* Time calculation *)
+T = Log[Q0] / 0.03;
+
+N[T, 9]

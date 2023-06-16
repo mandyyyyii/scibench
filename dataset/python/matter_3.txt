@@ -1,0 +1,16 @@
+
+import math
+
+# Constants
+h = 6.626e-34  # J s
+m = 1.675e-27  # kg
+k = 1.381e-23  # J K^-1
+T = 373  # K
+
+# Calculate the wavelength
+lambda_m = h / math.sqrt(m * k * T)  # m
+
+# Convert the wavelength from meters to picometers
+lambda_pm = lambda_m * 1e12  # pm
+
+print(lambda_pm)

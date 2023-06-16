@@ -1,0 +1,16 @@
+
+(*Constants*)h = 6.62607015*10^-34; (*Planck's constant in J.s*)
+c = 2.998*10^8; (*Speed of light in m/s*)
+eV = 1.602176634*10^-19; (*Electronvolt in J*)
+
+(*Provided data*)
+Ek = 1.77*eV; (*kinetic energy in J*)
+lambda = 305*10^-9; (*wavelength in m*)
+
+(*Calculations*)
+Ek = Ek/(h*c);
+invlambda = 1/lambda;
+lambdamax = 1/(invlambda - Ek);
+
+(*Result in nm*)
+lambdamax*10^9

@@ -1,0 +1,18 @@
+
+from sympy import symbols, I, sin, pi, diff, exp
+from sympy import simplify
+
+r, theta, phi = symbols('r theta phi')
+
+# Define the function u(theta, phi)
+u = - (3 / (8 * pi))**(1 / 2) * exp(I * phi) * sin(theta)
+
+# Apply the Laplacian
+laplacian_u = 1 / (r**2 * sin(theta)) * diff(sin(theta) * diff(u, theta), theta) + 1 / (r**2 * sin(theta)**2) * diff(u, phi, 2)
+
+# Simplify the result
+simplified_laplacian_u = simplify(laplacian_u)
+
+# Compute 'c'
+c = simplify(simplified_laplacian_u / u)
+print(c)

@@ -1,0 +1,25 @@
+
+import math
+
+# given constants
+G = 6.67e-11  # Gravitational constant in m^3/kg/s^2
+M_sun = 1.99e30  # Mass of Sun in kg
+r_earth_sun = 1.50e11  # Distance from Earth to Sun in m
+r_mars_sun = 2.28e11  # Distance from Mars to Sun in m
+
+# calculate m/k
+m_over_k = 1 / (G * M_sun)
+
+# calculate k/m
+k_over_m = 1 / m_over_k
+
+# calculate average distance
+a_t = 0.5 * (r_earth_sun + r_mars_sun)
+
+# calculate transfer time
+T_t = math.pi * math.sqrt(m_over_k) * a_t**(3/2)
+
+# convert s to 10^7 s
+T_t = T_t / 1e7
+
+print(T_t)

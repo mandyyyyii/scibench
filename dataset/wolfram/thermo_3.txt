@@ -1,0 +1,25 @@
+
+(* Define the constants *)
+R = 8.314;  (* in J/mol.K *)
+Vm = 24.4 * 10^-3;  (* in m^3 *)
+T = 298;  (* in K *)
+h = 6.626 * 10^-34;  (* in J.s *)
+mNe = 0.02018 / (6.022 * 10^23);  (* in kg *)
+k = 1.38 * 10^-23;  (* in J/K *)
+mKr = 4.15 * mNe;  (* in kg *)
+
+(* Calculate Lambda for Ne *)
+LambdaNe = (h^2 / (2 * Pi * mNe * k * T))^(1/2);  (* in m *)
+
+(* Calculate S for Ne *)
+SNe = R * Log[Vm / LambdaNe^3] - 52.25 * R;  (* in J/mol.K *)
+
+(* Calculate Lambda for Kr *)
+LambdaKr = (h^2 / (2 * Pi * mKr * k * T))^(1/2);  (* in m *)
+
+(* Calculate the entropy difference between Kr and Ne *)
+DeltaS = 1.5 * R * Log[mKr / mNe];  (* in J/mol.K *)
+
+(* Calculate S for Kr *)
+SKr = DeltaS + SNe;  (* in J/mol.K *)
+SKr

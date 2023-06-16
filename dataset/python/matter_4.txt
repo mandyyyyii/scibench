@@ -1,0 +1,21 @@
+
+# Constants
+m = 1.25  # g
+M_N2 = 28.02  # g/mol
+R = 8.3145  # J K^-1 mol^-1
+T_C = 20  # C
+V = 2.50e-4  # m^3
+
+# Convert temperature to Kelvin
+T_K = T_C + 273.15  # K
+
+# Calculate the number of moles of N2
+n_N2 = m / M_N2  # mol
+
+# Calculate the pressure
+p_Pa = (n_N2 * R * T_K) / V  # Pa
+
+# Convert pressure from Pa to kPa
+p_kPa = p_Pa / 1e3  # kPa
+
+print(p_kPa)

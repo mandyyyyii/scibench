@@ -1,0 +1,9 @@
+
+p = 1.0e5  
+M = 100  
+rho_a = 2.93  
+rho_c = 2.71  
+deltaHm_minus_deltaUm = p * M * ((1/rho_a) - (1/rho_c))
+deltaHm_minus_deltaUm = deltaHm_minus_deltaUm * 1e-6
+
+print(deltaHm_minus_deltaUm) 

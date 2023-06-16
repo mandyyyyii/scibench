@@ -1,0 +1,15 @@
+
+from sympy import symbols, integrate
+
+# Define the variable
+x = symbols('x')
+
+# Define the top and bottom boundaries
+y_T = 2*x - x**2
+y_B = x**2
+
+# Compute the area
+A = 2 * integrate((x - x**2), (x, 0, 1))
+
+print(A)
+

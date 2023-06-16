@@ -1,0 +1,11 @@
+
+# Given parameters
+omega = 2.00  # final angular velocity in rad/s
+omega_0 = 3.40  # initial angular velocity in rad/s
+theta_minus_theta_0 = 20.0 * 2 * 3.14159265359  # angular displacement in rad
+
+# Calculations
+alpha = (omega**2 - omega_0**2) / (2 * theta_minus_theta_0)  # angular acceleration
+
+print(alpha)
+

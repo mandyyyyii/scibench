@@ -1,0 +1,19 @@
+
+import math
+
+# given constants
+G = 6.67e-11  # gravitational constant in Nm^2/kg^2
+m_sun = 1.99e30  # mass of the sun in kg
+tau = 76 * 365 * 24 * 3600  # period of motion of Halley's comet in seconds
+eccentricity = 0.967  # eccentricity of the comet's orbit
+
+# Calculate semimajor axis
+a = ((G * m_sun * tau**2) / (4 * math.pi**2))**(1 / 3)
+
+# Calculate minimum distance
+r_min = a * (1 - eccentricity)
+
+# Convert minimum distance from meters to 10^12 meters
+r_min_10_12 = r_min / 1e10
+
+print(r_min_10_12)

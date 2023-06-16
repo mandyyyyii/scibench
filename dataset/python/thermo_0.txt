@@ -1,0 +1,16 @@
+
+import math
+
+# Define the constants
+n = 3.00  # in mol
+C_P_m = 27.98  # in J/mol/K
+T_i = 300.0  # in K
+T_f = 600.0  # in K
+V_m_i = 200.59 / (13.54 * 10**6)  # in m^3/mol
+beta = 1.81 * 10**-4  # in K^-1
+P_i = 0.0  # in bar
+P_f = 2.00  # in bar
+
+# Calculate ΔS
+delta_S = n * C_P_m * math.log(T_f/T_i) - n * V_m_i * beta * (P_f - P_i) * 10**5
+print(delta_S)

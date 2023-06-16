@@ -1,0 +1,4 @@
+
+numWays = Binomial[52, 13]
+
+N[numWays]

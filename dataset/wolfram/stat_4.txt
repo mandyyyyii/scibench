@@ -1,0 +1,3 @@
+
+ways=Factorial[52]/Factorial[52 - 5]
+ways

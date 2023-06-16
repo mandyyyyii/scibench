@@ -1,0 +1,21 @@
+
+(* Constants *)
+m = 1.25; (* g *)
+MN2 = 28.02; (* g/mol *)
+R = 8.3145; (* J K^-1 mol^-1 *)
+TC = 20; (* C *)
+V = 2.50*10^-4; (* m^3 *)
+
+(* Convert temperature to Kelvin *)
+TK = TC + 273.15; (* K *)
+
+(* Calculate the number of moles of N2 *)
+nN2 = m / MN2; (* mol *)
+
+(* Calculate the pressure *)
+pPa = (nN2 * R * TK) / V; (* Pa *)
+
+(* Convert pressure from Pa to kPa *)
+pkPa = pPa / 10^3; (* kPa *)
+
+N[pkPa]

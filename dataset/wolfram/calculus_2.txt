@@ -1,0 +1,13 @@
+
+(* Define the function *)
+f[x_, y_] := 16 - x^2 - 2*y^2
+
+deltaA = 1;
+
+(* Points *)
+points = {{1, 1}, {1, 2}, {2, 1}, {2, 2}};
+
+(* Compute the sum *)
+V = Total[f @@@ points] * deltaA
+
+V

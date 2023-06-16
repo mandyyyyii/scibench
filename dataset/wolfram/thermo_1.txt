@@ -1,0 +1,12 @@
+
+(* Define the constants *)
+n = 1.00;  (* in mol *)
+NA = 6.022 * 10^23;  (* in mol^-1 *)
+hnu = 1.00 * 10^-20;  (* in J *)
+U = 1.00 * 10^3;  (* in J *)
+k = 1.38 * 10^-23;  (* in J/K *)
+
+(* Calculate T *)
+T = hnu / (k * Log[(n * NA * hnu / U) - 1])
+
+T

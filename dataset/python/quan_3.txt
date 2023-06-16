@@ -1,0 +1,13 @@
+
+from math import exp
+
+# Define the constants
+a = 1  # in nm
+x = 1.5  # in nm
+dx = 0.0001  # in nm
+
+# Calculate |Psi|^2 * dx
+result = (1 / a) * exp(-2 * abs(x) / a) * dx
+result *= 1e6  # convert to 10^-6
+
+print(result)

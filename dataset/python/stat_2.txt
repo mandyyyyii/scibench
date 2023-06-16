@@ -1,0 +1,8 @@
+
+import math
+
+# The number of ways of selecting 4 officers from 10 persons
+num_ways = math.perm(10, 4)
+
+print(num_ways)
+

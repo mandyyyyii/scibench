@@ -1,0 +1,4 @@
+
+(* Calculation *)
+delta = -ArcTan[Sqrt[3]/4];
+N[delta, 5]

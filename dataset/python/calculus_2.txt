@@ -1,0 +1,14 @@
+
+def f(x, y):
+    return 16 - x**2 - 2*y**2
+
+delta_A = 1
+
+# Points
+points = [(1,1), (1,2), (2,1), (2,2)]
+
+# Compute the sum
+V = sum(f(x, y) * delta_A for x, y in points)
+
+print(V)
+

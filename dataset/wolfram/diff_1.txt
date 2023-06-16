@@ -1,0 +1,9 @@
+
+(* Constants *)
+Aa = 1/36;
+Bb = 1/192;
+
+(* Amplitude *)
+Rr = Sqrt[Aa + Bb];
+
+Rr

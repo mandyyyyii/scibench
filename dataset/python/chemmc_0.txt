@@ -1,0 +1,13 @@
+
+# Constants
+eV_to_J = 1.602 * 10**-19  # Conversion factor from eV to J
+h = 6.626 * 10**-34  # Planck's constant in J*s
+
+# Convert phi from eV to J
+phi_eV = 2.28
+phi_J = phi_eV * eV_to_J
+
+# Calculate v0 and convert it to 10^14 Hz
+v0 = phi_J / h / (10**14)
+print(v0)
+

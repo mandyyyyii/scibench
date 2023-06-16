@@ -1,0 +1,19 @@
+
+(* Constants *)
+Z = 2;
+n = 3;
+h = 6.62608*10^-34; (* Joule second *)
+c = 2.997926*10^10; (* cm/s *)
+Rinf = 109737; (* cm^-1 *)
+eVToJ = 1.602176*10^-19; (* Joule per eV *)
+
+(* Calculate h * c * R_inf *)
+hCRinf = h * c * Rinf; (* Joule *)
+
+(* Calculate the energy E3 *)
+E3J = - (Z^2 * hCRinf) / n^2; (* Joule *)
+
+(* Convert energy from Joule to eV *)
+E3eV = E3J / eVToJ;
+
+E3eV

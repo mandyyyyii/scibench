@@ -1,0 +1,15 @@
+
+from scipy.integrate import quad
+import numpy as np
+
+# Define the integrand function
+def integrand(x):
+    a = 1  # substitute with actual value if given
+    return np.exp(-2 * x / a)
+
+# Perform the integration
+result, _ = quad(integrand, 0, 2)  # the limits of integration are 0 and 2
+result *= 1  # substitute with actual value of a^-1 if given
+result = -0.5 * (np.exp(-4) - 1)
+
+print(result)

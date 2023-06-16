@@ -1,0 +1,14 @@
+
+from scipy import integrate
+from math import exp
+
+# Define the integrand
+def integrand(r, a):
+    return (4 / a**3) * exp(-2 * r / a) * r**2
+
+# Perform the integral from 0 to a
+a = 1  # Define a (you may need to substitute the correct value)
+result, error = integrate.quad(integrand, 0, a, args=(a))
+
+print(result)
+

@@ -1,0 +1,12 @@
+
+(* Define the variable *)
+x =.
+
+(* Define the top and bottom boundaries *)
+yT = 2*x - x^2;
+yB = x^2;
+
+(* Compute the area *)
+A = 2 * Integrate[(x - x^2), {x, 0, 1}]
+
+A

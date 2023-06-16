@@ -1,0 +1,12 @@
+
+(* Coefficients of the polynomial *)
+coeff = {1, -0.453, 3.61*10^-2, -1.55*10^-3};
+
+(* Solve the polynomial equation *)
+roots = x /. Solve[coeff.{x^3, x^2, x, 1} == 0, x];
+
+(* Find the real root that is non-negative and less than 0.410 *)
+Vm = Select[roots, Element[#, Reals] && 0 <= # <= 0.410 &][[1]];
+
+(* Display the result *)
+N[Vm]

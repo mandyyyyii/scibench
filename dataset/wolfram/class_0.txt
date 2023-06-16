@@ -1,0 +1,8 @@
+
+mus = 0.4;
+
+theta = ArcTan[mus];
+
+thetaDegrees = theta * 180 / Pi;
+
+thetaDegrees

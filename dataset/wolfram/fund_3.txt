@@ -1,0 +1,11 @@
+
+(* Given parameters *)
+W = 20; (* work in J *)
+m = 14; (* mass in kg *)
+v = 0.20; (* final velocity in m/s *)
+v0 = 0.60; (* initial velocity in m/s *)
+
+(* Calculations *)
+deltaEmec = 0.5 * m * v^2 - 0.5 * m * v0^2; (* change in mechanical energy *)
+deltaEth = W - deltaEmec; (* change in thermal energy *)
+N[deltaEth, 2]

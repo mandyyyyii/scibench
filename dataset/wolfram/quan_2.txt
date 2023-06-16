@@ -1,0 +1,9 @@
+
+(* Define the integrand *)
+integrand[r_, a_] := (4 / a^3) * Exp[-2 * r / a] * r^2
+
+(* Perform the integral from 0 to a *)
+a = 1; (* Define a (you may need to substitute the correct value) *)
+result = NIntegrate[integrand[r, a], {r, 0, a}]
+
+result

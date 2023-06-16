@@ -1,0 +1,5 @@
+
+f[x_] := 1 + x^2
+a = -1;
+b = 2;
+f_ave = 1/(b - a)*Integrate[f[x], {x, a, b}]

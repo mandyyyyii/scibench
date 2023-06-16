@@ -1,0 +1,12 @@
+
+import math
+
+# given constants
+r = 0.08  # interest rate
+k = 2000  # continuous deposit in $
+t = 40  # time period in years
+
+# calculate savings S(40)
+S_t = k/r * (math.exp(r * t) - 1)
+
+print(S_t)

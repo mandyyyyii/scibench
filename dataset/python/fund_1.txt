@@ -1,0 +1,19 @@
+
+import numpy as np
+
+# Given parameters
+R = 6370e3  # radius of Earth in m
+h = 350e3  # altitude in m
+M = 5.98e24  # mass of Earth in kg
+m = 7.20  # mass of satellite in kg
+G = 6.67e-11  # gravitational constant in N*(m**2)/(kg**2)
+
+# Calculations
+r = R + h  # orbital radius
+E = -G * M * m / (2 * r)  # mechanical energy
+
+# Convert to mega joules (MJ)
+E_MJ = E / 1e6
+
+print(E_MJ)
+

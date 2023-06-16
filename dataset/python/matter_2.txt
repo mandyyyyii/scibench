@@ -1,0 +1,20 @@
+
+# Constants
+Z = 2
+n = 3
+h = 6.62608e-34  # Joule second
+c = 2.997926e10  # cm/s
+R_inf = 109737  # cm^-1
+eV_to_J = 1.602176e-19  # Joule per eV
+
+# Calculate h * c * R_inf
+h_c_R_inf = h * c * R_inf  # Joule
+
+# Calculate the energy E3
+E3_J = - (Z**2 * h_c_R_inf) / n**2  # Joule
+
+# Convert energy from Joule to eV
+E3_eV = E3_J / eV_to_J
+
+print(E3_eV)
+

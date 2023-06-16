@@ -1,0 +1,8 @@
+
+(* Define the constants *)
+Cratio = 0.157;  (* 14C/14C0 *)
+k = Log[2] / (1.82 * 10^11);  (* in s^-1 *)
+
+(* Calculate the time *)
+t = -Log[Cratio] / k;  (* in s *)
+t / 10^11  (* in 10^11 s *)

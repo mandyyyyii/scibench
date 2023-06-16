@@ -1,0 +1,13 @@
+
+# Given parameters
+W = 20  # work in J
+m = 14  # mass in kg
+v = 0.20  # final velocity in m/s
+v0 = 0.60  # initial velocity in m/s
+
+# Calculations
+delta_E_mec = 0.5 * m * v**2 - 0.5 * m * v0**2  # change in mechanical energy
+delta_E_th = W - delta_E_mec  # change in thermal energy
+
+print(delta_E_th)
+

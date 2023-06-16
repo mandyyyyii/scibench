@@ -1,0 +1,11 @@
+
+R = 8.3145 / 1000; (* kJ K^-1 mol^-1 *)
+T = 298; (* K *)
+
+(* Molar quantities *)
+nH2 = 3.0; (* mol *)
+nN2 = 1.0; (* mol *)
+
+(* Gibbs energy of mixing *)
+deltaGmix = -(nH2 + nN2) * R * T * Log[2]
+deltaGmix

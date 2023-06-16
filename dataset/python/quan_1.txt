@@ -1,0 +1,17 @@
+
+# Define the constants
+mu = 0.9994557
+m = 9.109383 * 10**-31
+e = 1.6021766 * 10**-19
+h = 6.626070 * 10**-34
+epsilon0 = 8.8541878 * 10**-12
+Z = 1
+n = 1
+
+# Calculate the energy
+E = -mu*m*(e**4) / (8*(h**2)*(epsilon0**2)) * (Z**2 / n**2)
+
+# Convert the energy to eV
+E *= 1 / e
+
+print(E)

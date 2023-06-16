@@ -1,0 +1,13 @@
+
+import math
+
+# given static friction coefficient
+mu_s = 0.4 
+
+# Calculate angle in radians
+theta_radians = math.atan(mu_s)
+
+# Convert angle to degrees
+theta_degrees = math.degrees(theta_radians)
+
+print(theta_degrees)

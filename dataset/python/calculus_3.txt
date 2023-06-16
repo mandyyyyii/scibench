@@ -1,0 +1,17 @@
+
+import sympy as sp
+
+# Define the variable
+x = sp.symbols('x')
+
+# Define the function
+f = 1 + x**2
+
+# Define the limits
+a = -1
+b = 2
+
+# Compute the average
+f_ave = 1/(b - a) * sp.integrate(f, (x, a, b))
+
+print(f_ave)

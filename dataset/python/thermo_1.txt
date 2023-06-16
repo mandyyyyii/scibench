@@ -1,0 +1,13 @@
+
+import math
+
+# Define the constants
+n = 1.00  # in mol
+N_A = 6.022 * 10**23  # in mol^-1
+h_nu = 1.00 * 10**-20  # in J
+U = 1.00 * 10**3  # in J
+k = 1.38 * 10**-23  # in J/K
+
+# Calculate T
+T = h_nu / (k * math.log((n * N_A * h_nu / U) - 1))
+print(T)

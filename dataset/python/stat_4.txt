@@ -1,0 +1,7 @@
+
+import math
+
+# Number of ways to draw 5 cards from a deck of 52
+ways = math.perm(52, 5)
+
+print(ways)

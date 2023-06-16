@@ -1,0 +1,18 @@
+
+import numpy as np
+
+# Given parameters
+m = 2.00  # mass in kg
+v0 = 4.00  # initial velocity in m/s
+U0 = 0  # initial potential energy in J
+U1 = 7.0  # final potential energy in J
+
+# Calculations
+K0 = 0.5 * m * v0**2  # initial kinetic energy
+Emec = K0 + U0  # initial mechanical energy
+K1 = Emec - U1  # final kinetic energy
+
+# Because K1 = 0.5 * m * v1^2, we find v1
+v1 = np.sqrt(2 * K1 / m)  # final velocity
+
+print(v1)

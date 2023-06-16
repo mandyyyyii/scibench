@@ -1,0 +1,4 @@
+
+numWays = Factorial[10]/Factorial[10 - 4]
+
+N[numWays]

@@ -1,0 +1,13 @@
+
+(* Define the function u(theta, phi) *)
+u[theta_, phi_] := - (3 / (8 * Pi))^(1 / 2) * Exp[I * phi] * Sin[theta]
+
+(* Apply the Laplacian *)
+LaplacianU = 1 / (r^2 * Sin[theta]) * D[Sin[theta] * D[u[theta, phi], theta], theta] + 1 / (r^2 * Sin[theta]^2) * D[u[theta, phi], {phi, 2}]
+
+(* Simplify the result *)
+SimplifiedLaplacianU = Simplify[LaplacianU]
+
+(* Compute 'c' *)
+c = SimplifiedLaplacianU / u[theta, phi]
+c

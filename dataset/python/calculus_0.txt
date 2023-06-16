@@ -1,0 +1,18 @@
+
+import numpy as np
+
+# Constants
+K = 2
+a = 1
+b = 2
+
+# Tolerance
+tolerance = 0.0001
+
+# Solving inequality for n
+n = np.sqrt((2 * (a**3)) / (12 * tolerance))
+
+# Ensure desired accuracy
+n = np.ceil(n)
+
+print(n)

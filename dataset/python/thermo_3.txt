@@ -1,0 +1,27 @@
+
+import math
+
+# Define the constants
+R = 8.314  # in J/mol.K
+V_m = 24.4 * 10**-3  # in m^3
+T = 298  # in K
+h = 6.626 * 10**-34  # in J.s
+m_Ne = 0.02018 / (6.022 * 10**23)  # in kg
+k = 1.38 * 10**-23  # in J/K
+m_Kr = 4.15 * m_Ne  # in kg
+
+# Calculate Lambda for Ne
+Lambda_Ne = (h**2 / (2 * math.pi * m_Ne * k * T))**0.5  # in m
+
+# Calculate S for Ne
+S_Ne = R * math.log(V_m / Lambda_Ne**3) - 52.25 * R  # in J/mol.K
+
+# Calculate Lambda for Kr
+Lambda_Kr = (h**2 / (2 * math.pi * m_Kr * k * T))**0.5  # in m
+
+# Calculate the entropy difference between Kr and Ne
+Delta_S = 1.5 * R * math.log(m_Kr / m_Ne)  # in J/mol.K
+
+# Calculate S for Kr
+S_Kr = Delta_S + S_Ne  # in J/mol.K
+print(S_Kr)

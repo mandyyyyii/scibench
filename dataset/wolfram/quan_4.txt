@@ -1,0 +1,13 @@
+
+(* Define the constants *)
+n = 2.5;  (* in mol *)
+cv = 12.47;  (* in J/mol/K *)
+Ti = 325;  (* in K *)
+Tf = 268;  (* in K *)
+R = 8.314;  (* in J/mol/K *)
+
+(* Calculate ΔU *)
+deltaU = n * cv * (Tf - Ti);
+deltaU /= 1000  (* convert to kJ *)
+
+deltaU

@@ -1,0 +1,12 @@
+
+from scipy import integrate
+from numpy import sin, sqrt, pi
+
+# Define the function for the integrand
+def f(theta):
+    return sqrt(2 + 2 * sin(theta))
+
+# Compute the integral
+L, error = integrate.quad(f, 0, 2 * pi)
+
+print(L)

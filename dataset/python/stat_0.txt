@@ -1,0 +1,14 @@
+
+# Given probabilities
+P_A1 = 0.3
+P_A2 = 0.2
+P_A3 = 0.2
+
+P_A1_B = 0.3 * 0.6
+P_A2_B = 0.2 * 0.7
+P_A3_B = 0.2 * 0.8
+
+# Calculate the desired probability
+P_B_given_A1_A2_A3 = (P_A1_B + P_A2_B + P_A3_B) / (P_A1 + P_A2 + P_A3)
+
+print(P_B_given_A1_A2_A3)

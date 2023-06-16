@@ -1,0 +1,22 @@
+
+(* given constants *)
+G = 6.67*10^-11; (* Gravitational constant in m^3/kg/s^2 *)
+Msun = 1.99*10^30; (* Mass of Sun in kg *)
+rEarthSun = 1.50*10^11; (* Distance from Earth to Sun in m *)
+rMarsSun = 2.28*10^11; (* Distance from Mars to Sun in m *)
+
+(* calculate m/k *)
+mOverK = 1 / (G * Msun);
+
+(* calculate k/m *)
+kOverM = 1 / mOverK;
+
+(* calculate average distance *)
+aT = 0.5 * (rEarthSun + rMarsSun);
+
+(* calculate transfer time *)
+Tt = Pi * Sqrt[mOverK] * aT^(3/2);
+
+(* convert s to 10^7 s *)
+Tt = Tt / 10^7;
+Tt

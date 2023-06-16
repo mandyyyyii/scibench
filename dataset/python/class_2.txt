@@ -1,0 +1,22 @@
+
+import math
+
+# given constants
+v_0 = 1450  # muzzle velocity in m/s
+theta = math.radians(55)  # angle of elevation in radians
+g = 9.8  # acceleration due to gravity in m/s^2
+
+# calculate time of flight
+T = 2 * v_0 * math.sin(theta) / g
+
+# calculate range
+R = (v_0**2 / g) * math.sin(2 * theta)
+
+# calculate maximum height
+y_max = v_0 * (T/2) * math.sin(theta) - 0.5 * g * (T/2)**2
+
+# convert m to km
+R_km = R / 1000
+y_max_km = y_max / 1000
+
+print(y_max_km)

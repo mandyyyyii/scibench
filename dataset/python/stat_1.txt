@@ -1,0 +1,7 @@
+
+import math
+
+# The number of possible 13-card hands that can be selected from a deck of 52 playing cards
+num_ways = math.comb(52, 13)
+
+print(num_ways)

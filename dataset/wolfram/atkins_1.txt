@@ -1,0 +1,9 @@
+coeff = {1, -0.453, 0.0361, -0.00155};
+
+solutions = NSolve[coeff.{x^3, x^2, x, 1} == 0, x];
+
+realSolution = Select[solutions, Im[x /. #] == 0 &];
+
+realRoot = x /. realSolution[[1]];
+
+V_m = realRoot

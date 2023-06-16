@@ -1,0 +1,10 @@
+
+(* given constants *)
+r = 0.08; (* interest rate *)
+k = 2000; (* continuous deposit in $ *)
+t = 40; (* time period in years *)
+
+(* calculate savings S(40) *)
+St = k/r * (Exp[r * t] - 1);
+
+St

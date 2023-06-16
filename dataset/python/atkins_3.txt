@@ -1,0 +1,16 @@
+
+import numpy as np
+
+# Constants
+R = 8.3145 / 1000  # kJ K^-1 mol^-1
+T = 298  # K
+
+# Molar quantities
+n_H2 = 3.0  # mol
+n_N2 = 1.0  # mol
+
+# Gibbs energy of mixing
+delta_G_mix = -(n_H2 + n_N2) * R * T * np.log(2)
+
+print(delta_G_mix)
+

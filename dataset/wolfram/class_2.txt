@@ -1,0 +1,19 @@
+
+v0 = 1450; (* muzzle velocity in m/s *)
+theta = 55 Degree; (* angle of elevation in degrees *)
+g = 9.8; (* acceleration due to gravity in m/s^2 *)
+
+(* calculate time of flight *)
+T = 2 * v0 * Sin[theta] / g;
+
+(* calculate range *)
+R = (v0^2 / g) * Sin[2 * theta];
+
+(* calculate maximum height *)
+ymax = v0 * (T/2) * Sin[theta] - 0.5 * g * (T/2)^2;
+
+(* convert m to km *)
+Rkm = R / 1000;
+ymaxkm = ymax / 1000;
+
+ymaxkm

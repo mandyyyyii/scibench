@@ -1,0 +1,17 @@
+
+# Constants
+c = 2.998 * 10**8  # Speed of light in m/s
+me = 9.109 * 10**-31  # Mass of an electron in kg
+h = 6.626 * 10**-34  # Planck's constant in J*s
+percentage_of_c = 0.01
+
+# Calculate v
+v = c * percentage_of_c
+
+# Calculate p
+p = me * v
+
+# Calculate lambda and convert it to pm
+lambda_m = h / p
+lambda_pm = lambda_m * 10**12
+print(lambda_pm)

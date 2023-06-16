@@ -1,0 +1,12 @@
+
+(* given constants *)
+G = 6.67*10^-11; (* gravitational constant in m^3/kg/s^2 *)
+Mm = 7.350*10^22; (* mass in kg *)
+r = 6.37*10^6; (* radius in m *)
+g = 9.80; (* acceleration due to gravity in m/s^2 *)
+Dd = 3.84*10^8; (* distance in m *)
+
+(* calculate h *)
+h = (3 * G * Mm * r^2) / (2 * g * Dd^3);
+
+h

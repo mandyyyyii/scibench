@@ -1,0 +1,10 @@
+
+import numpy as np
+
+# Constants
+A_squared = 1/36
+B_squared = 1/192
+
+# Amplitude
+R = np.sqrt(A_squared + B_squared)
+print(R)

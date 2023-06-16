@@ -1,0 +1,14 @@
+
+(* Given probabilities *)
+PA1 = 0.3;
+PA2 = 0.2;
+PA3 = 0.2;
+
+PA1B = 0.3 * 0.6;
+PA2B = 0.2 * 0.7;
+PA3B = 0.2 * 0.8;
+
+(* Calculate the desired probability *)
+PBgivenA1A2A3 = (PA1B + PA2B + PA3B) / (PA1 + PA2 + PA3)
+
+N[PBgivenA1A2A3]

@@ -1,0 +1,14 @@
+
+import numpy as np
+
+# Coefficients of the polynomial
+coeff = [1, -0.453, 3.61e-2, -1.55e-3]
+
+# Using numpy's roots function to solve the polynomial
+roots = np.roots(coeff)
+
+# Find the real root that is non-negative and less than 0.410
+Vm = next(root for root in roots if np.isreal(root) and 0 <= root <= 0.410)
+
+# Display the result
+print(Vm.real)

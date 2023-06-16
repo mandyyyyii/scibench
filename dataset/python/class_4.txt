@@ -1,0 +1,13 @@
+
+import math
+
+# given constants
+G = 6.67e-11  # gravitational constant in m^3/kg/s^2
+M_m = 7.350e22  # mass in kg
+r = 6.37e6  # radius in m
+g = 9.80  # acceleration due to gravity in m/s^2
+D = 3.84e8  # distance in m
+
+# calculate h
+h = (3 * G * M_m * r**2) / (2 * g * D**3)
+print(h)
