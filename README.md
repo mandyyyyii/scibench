@@ -9,7 +9,7 @@ involves instructing LLMs to self-identify and categorize their errors within a 
 capabilities. This process offers a fine-grained understanding of where the models are falling short.
 
 ## Data
-![Alt text](assets/example.pdf)
+![Alt text](assets/example.jpg)
 
 The SciBench dataset is under dataset folder in json file format. Each file is list of dictionary and can be extracted using following scripts.
 We have lsit of subjects where each subjects stands for one textbook, which is fully elaborated in the paper. 
@@ -25,7 +25,7 @@ with open("./data/{}.json".format(subject), encoding='utf-8') as json_file:
 To evaluate our data using LLM, please refer to folder under eval
 
 ## Analysis (Evaluation Protocol)
-![Alt text](assets/pipeline.pdf)
+![Alt text](assets/pipeline.jpg)
 
 The evaluation protocol involves analyzing both LLM
 and reference (correct) solutions with the assistance of human annotators to identify error reasons.
