@@ -5,7 +5,7 @@ import operator
 import argparse
 import json
 import math
-from prompt import prompt_math, prompt_math_wol, prompt_knowledge, prompt_scai
+from prompt import prompt_scai
 from post_process import parse_math_answer
 openai.api_key = os.getenv("OPENAI_API_KEY")
 def find_error(sys, problem, correct, sol, tool="", ans=[]):
@@ -76,7 +76,7 @@ def run(file, engine, start_n,setting):
     sys_prompt=prompt_scai.sys_ana
     
     sys_name=""
-    with open("./output_{}/{}_dict_{}_{}_{}.json".format(setting, engine, setting, start_n,file), encoding='utf-8') as json_file, open("../data/{}_sol.json".format(file), encoding='utf-8') as ori_file:
+    with open("./output_{}/{}_dict_{}_{}_{}.json".format(setting, engine, setting, start_n,file), encoding='utf-8') as json_file, open("../dataset/original/{}_sol.json".format(file), encoding='utf-8') as ori_file:
         problems=json.load(json_file)
         ori_problems=json.load(ori_file)
         for i, problem_data in enumerate(problems): 

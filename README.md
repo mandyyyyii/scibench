@@ -1,18 +1,18 @@
 # SciBench
-SciBench is a novel benchmark for college-level scientific problems consisting of 694
-problems sourced from instructional textbooks, as well as 7 sets of exams derived from actual
-classroom assessments. The benchmark is designed to evaluate the complex reasoning capabilities,
-strong domain knowledge, and advanced calculation skills of LLMs.
+**SciBench** is a novel benchmark for college-level scientific problems consisting of _695_
+problems sourced from instructional textbooks. The benchmark is designed to evaluate the complex reasoning capabilities,
+strong domain knowledge, and advanced calculation skills of LLMs. 
+Please refer to our paper for full description: [SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models] (https://arxiv.org/abs/2307.10635)
 ![Alt text](assets/table.jpeg)
-We developed an innovative evaluation protocol for a detailed analysis of reasoning abilities. This
+We developed an innovative **evaluation protocol** for a detailed analysis of reasoning abilities. This
 involves instructing LLMs to self-identify and categorize their errors within a predefined set of
 capabilities. This process offers a fine-grained understanding of where the models are falling short.
 
 ## Data
 ![Alt text](assets/example.jpg)
 
-The SciBench dataset is under dataset folder in json file format. Each file is list of dictionary and can be extracted using following scripts.
-We have lsit of subjects where each subjects stands for one textbook, which is fully elaborated in the paper. 
+The SciBench dataset is under dataset/original folder in json file format. Each file is list of dictionary and can be extracted using following scripts.
+Each file stands for one textbook, which is fully elaborated in the paper. 
 
 ```
 subject='atkins'
@@ -40,4 +40,5 @@ After running the evaluation part, use the output to run the evaluation protocol
 cd eval
 OPENAI_API_KEY=your_key python ana_error.py --setting your_setting 
 ```
+
 

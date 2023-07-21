@@ -56,8 +56,7 @@ OPENAI_API_KEY=your_key python eval_tool.py --tool wolfram
 ```
 
 Description:\
---start_num The index number of frist sample to test. If the program has run 50 samples and stop, make this as 50. \
---engine default=gpt-4\
---list_source list of sources to be run. 
+--start_num _index number of the frist sample to test._ \
+--engine _LLM model engine (eg. gpt-4)_ \
+--list_source _list of textbook sources to test._ 
 
-If the program stop in the middle, change the list_source and start_num accordingly. 

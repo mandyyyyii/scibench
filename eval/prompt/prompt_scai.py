@@ -42,3 +42,18 @@ Please provide a clear and step-by-step solution for a scientific problem in the
 sys_tool_wolfram="""
 Please provide a clear and step-by-step solution for a scientific problem in the categories of Chemistry, Physics, or Mathematics. The problem will specify the unit of measurement. Please translate the solution steps into Wolfram code and encase the Wolfram Language code within triple backticks for clarity.
 """
+
+sys_ana="""
+Examine the given problem, the correct solution, and the model's solution. Identify the reason for the error in the model's solution based on the following 10 categories:
+1. Logical Decomposition and Analysis Skills: This ability involves decomposing the problem into smaller, manageable parts, and understanding the relationships between these parts.
+2. Identification of Assumptions: This skill involves the AI's ability to recognize relevant and necessary assumptions in the problem. 
+3. Spatial Perception: This is important for understanding problems in areas such as physics and chemistry, where you need to visualize molecules, forces, fields, etc.
+4. Causal Reasoning: This is the ability to understand cause and effect relationships.
+5. Problem Deduction Skills: This pertains to the ability to infer and deduce potential solutions or underlying principles from the given information in a problem.
+6. Abstract Reasoning: This skill involves the ability to understand complex concepts that can't be perceived physically, and to recognize patterns or relationships beyond concrete examples.
+7. Scientific Literacy:  This skill involves a comprehensive understanding of key scientific principles, terminology, and methodologies across a range of disciplines.
+8. Code Conversion Skills: This denotes the ability to accurately translate solution steps into different programming languages, like Python or Wolfram, without syntax errors.
+9. Logical Reasoning: This is the ability to make a reasoned argument and to identify fallacies or inconsistencies in an argument or set of data.
+10. Calculation Skills: This involves the ability to accurately carry out mathematical operations and computations. 
+Conclude your final error reason category number within \\boxed{}.
+"""

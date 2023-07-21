@@ -6,7 +6,7 @@ import operator
 import json
 import argparse
 import math
-from prompt import prompt_math, prompt_math_wol, prompt_knowledge, prompt_scai
+from prompt import prompt_scai
 from post_process import parse_math_answer
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -78,7 +78,7 @@ def get_eg(file):
     exp=[]
     answer=[]
     unit=[]
-    with open("../dataset/{}_sol.json".format(file), encoding='utf-8') as json_file:
+    with open("../dataset/original/{}_sol.json".format(file), encoding='utf-8') as json_file:
         problems=json.load(json_file)
         for problem_data in problems:
                 count+=1
@@ -109,7 +109,7 @@ def run(file, engine, start_n, Cot):
         cot_name="fewCot"
     else:
         cot_name="few"
-    with open("../dataset/{}.json".format(file), encoding='utf-8') as json_file:
+    with open("../dataset/original/{}.json".format(file), encoding='utf-8') as json_file:
         problems=json.load(json_file)
         for problem_data in problems:
                 count+=1

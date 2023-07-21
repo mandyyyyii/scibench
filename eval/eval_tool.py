@@ -8,7 +8,7 @@ import operator
 import json
 import argparse
 import math
-from prompt import prompt_math, prompt_math_wol, prompt_knowledge, prompt_scai
+from prompt import prompt_scai
 from post_process import parse_math_answer
 from wolframclient.evaluation import WolframLanguageSession
 from wolframclient.language import wl, wlexpr
@@ -37,7 +37,7 @@ def tool_ms(sys, problem, problem_eg, exp_eg, answer_eg, unit_eg, tool, lan, num
 def get_langueg(subj, lan):
     output_lan=[]
     for i in range(4):
-        with open("../dataset/{}/{}_{}.txt".format(lan,subj,i)) as f:
+        with open("../dataset/original/{}/{}_{}.txt".format(lan,subj,i)) as f:
             output_lan.append(f.read())
 
     return output_lan
@@ -109,7 +109,7 @@ def get_eg(file):
     exp=[]
     answer=[]
     unit=[]
-    with open("../dataset/{}_sol.json".format(file), encoding='utf-8') as json_file:
+    with open("../dataset/original/{}_sol.json".format(file), encoding='utf-8') as json_file:
         problems=json.load(json_file)
         for problem_data in problems:
                 count+=1
@@ -151,7 +151,7 @@ def run(file, engine, start_n, Cot, tool):
         num_shot=3
     else:
         num_shot=4
-    with open("../dataset/{}.json".format(file), encoding='utf-8') as json_file:
+    with open("../dataset/original/{}.json".format(file), encoding='utf-8') as json_file:
         problems=json.load(json_file)
         for problem_data in problems:
                 count+=1
