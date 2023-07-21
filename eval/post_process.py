@@ -39,5 +39,5 @@ def last_boxed_only_string(string):
             retval = string[idx:right_brace_idx + 1]
 
         return retval
-def parse_math_answer(setting_name, raw_string):
+def parse_math_answer(raw_string):
     remove_boxed(last_boxed_only_string(raw_string))
