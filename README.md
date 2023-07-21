@@ -1,8 +1,13 @@
 # SciBench
+Our Paper: [SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models](https://arxiv.org/abs/2307.10635)
+
+HuggingFace page: [https://huggingface.co/datasets/xw27/scibench](https://huggingface.co/datasets/xw27/scibench)
+
+
 **SciBench** is a novel benchmark for college-level scientific problems consisting of _695_
 problems sourced from instructional textbooks. The benchmark is designed to evaluate the complex reasoning capabilities,
 strong domain knowledge, and advanced calculation skills of LLMs. 
-Please refer to our paper for full description: [SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models](https://arxiv.org/abs/2307.10635)
+
 ![Alt text](assets/table.jpeg)
 We developed an innovative **evaluation protocol** for a detailed analysis of reasoning abilities. This
 involves instructing LLMs to self-identify and categorize their errors within a predefined set of
