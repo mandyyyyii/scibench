@@ -105,9 +105,9 @@ def run(file, engine, start_n,setting):
                 ls_dict.append({'gpt solution': problem_data["gpt solution"], "correct solution": ori_problems[i]["solution"], "problem_text": ori_problems[i]["problem_text"], "correct answer": problem_data["correct answer"],
                                "gpt error reason": model_output, "gpt error explain":model_output_ori,"fname": problem_data["fname"], "correct":problem_data["correct"]})
                 if total % 1==0:
-                    with open("./output_zero{}/{}_dict_zero{}_{}_{}.json".format(setting, engine, sys_name, start_n,file), 'w') as fout:
+                    with open("./output_{}/error_{}_dict_{}_{}_{}.json".format(setting, engine, sys_name, start_n,file), 'w') as fout:
                         json.dump(ls_dict, fout)
-                    with open("./output_zero{}/{}_zero{}_{}_{}.txt".format(setting, engine,sys_name, start_n,file), "w+") as f:
+                    with open("./output_{}/error_{}_{}_{}_{}.txt".format(setting, engine,sys_name, start_n,file), "w+") as f:
                         for k, (output, fnames, model_output) in enumerate(zip(outputs, fnames_list, model_outputs)):
                             f.write("\n{} OUTPUT: {} | fname:{} | gpt: {}\n".format(k, output, fnames, model_output))
 

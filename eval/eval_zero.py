@@ -6,7 +6,7 @@ import argparse
 import json
 import math
 from prompt import prompt_scai
-from post_process import parse_math_answer
+from post_process import parse_math_answer, remove_not, cal_not,parse_not
 openai.api_key = os.getenv("OPENAI_API_KEY")
 def zero(sys, problem, stage=1, exp=""):
     if sys !="":
@@ -65,8 +65,6 @@ def run(file, engine, start_n, sys):
     model_outputs=[]
     ls_dict=[]
 
-    fnames_list = []
-
     correct = 0
     total = 0
     count=0
@@ -84,17 +82,23 @@ def run(file, engine, start_n, sys):
                 if count<=start_n:
                     continue
                 prob_book = problem_data["source"]
-                fnames_list.append(problem_data["fname"])
-                problem_text=problem_data["problem_text"]+" The unit of the answer is "+problem_data["unit"]+"."
+                
+                unit_prob=problem_data["unit"]
+                if remove_not(problem_data["unit"]):
+                    unit_prob=remove_not(problem_data["unit"])
+                problem_text=problem_data["problem_text"]+" The unit of the answer is "+unit_prob+"."
                 message=zero(sys_prompt, problem_text)
                 model_output_ori=call_engine(message, engine=engine)
                 
-                print(model_output_ori)
                 model_output = parse_math_answer(model_output_ori)
                 answer = problem_data["answer_number"]
+                if unit_prob!=problem_data["unit"]:
+                    model_output=cal_not(parse_not(model_output))
+                    answer=cal_not((answer, problem_data["unit"]))
 
                 types.append(prob_book)
                 outputs.append(model_output)
+                
                 answers.append(answer+"@@"+problem_data["unit"])
                 model_outputs.append(model_output_ori)
 
@@ -115,13 +119,13 @@ def run(file, engine, start_n, sys):
                 print(str(correct) + "/" + str(total))
                 list_equiv.append(res_equiv)
                 ls_dict.append({'correct': res_equiv, 'gpt solution': model_output_ori, "correct answer": answer+"@@"+problem_data["unit"],
-                               "gpt answer": model_output, "fname": problem_data["fname"], "source book": prob_book})
+                               "gpt answer": model_output, "source book": prob_book})
                 if total % 1==0:
                     with open("./output_zero{}/{}_dict_{}_{}_{}.json".format(sys_name, engine, sys_name, start_n,file), 'w') as fout:
                         json.dump(ls_dict, fout)
                     with open("./output_zero{}/{}_{}_{}_{}.txt".format(sys_name, engine,sys_name, start_n,file), "w+") as f:
-                        for k, (output, answer, correctness, fnames, model_output) in enumerate(zip(outputs, answers, list_equiv, fnames_list, model_outputs)):
-                            f.write("\n{} Correct: {} | OUTPUT: {} | ANSWER: {} | fname:{} | gpt: {}\n".format(k, correctness, output, answer, fnames, model_output))
+                        for k, (output, answer, correctness, model_output) in enumerate(zip(outputs, answers, list_equiv, model_outputs)):
+                            f.write("\n{} Correct: {} | OUTPUT: {} | ANSWER: {} | gpt: {}\n".format(k, correctness, output, answer, model_output))
 
                         f.write("#####################\n")
                         print("#####################")
