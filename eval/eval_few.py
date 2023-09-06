@@ -58,12 +58,19 @@ def call_engine(messages, engine,temperature=0,n=1, patience=1000000000, sleep_t
 def equiv(model_output, answer, unit):
     model_output=model_output.replace(',', '')
     try:
-        first=math.isclose(float(model_output.strip()), float(answer.strip()), abs_tol=0.1)
+        ans=float(answer.strip())
+        if ans >=1:
+            first=math.isclose(float(model_output.strip()), ans, abs_tol=0.1)
+        else:
+            first=math.isclose(float(model_output.strip()), ans, rel_tol=0.1)
     except:
         first=False
     try: 
         model=model_output.strip().split()[0]
-        second=math.isclose(float(model), float(answer.strip()), abs_tol=0.1)
+        if ans >=1:
+            second=math.isclose(float(model_output.strip()), ans, abs_tol=0.1)
+        else:
+            second=math.isclose(float(model_output.strip()), ans, rel_tol=0.1)
     except:
         second=False
     if first or second:
