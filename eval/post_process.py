@@ -29,8 +29,8 @@ def cal_not(inputs):
         ab=ab[ab.find('^')+1:]
         if '{' in ab:
             ab=ab[ab.find('{')+1:]
-            if '}' in ab:
-                ab=ab[:ab.find('}')]
+        if '}' in ab:
+            ab=ab[:ab.find('}')]
         x=x.strip()
         out=float(x)*10**float(ab)
         # print(float(x)*10**float(ab))
