@@ -1,7 +1,4 @@
 # SciBench
-Our Paper: [SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models](https://arxiv.org/abs/2307.10635)
-
-HuggingFace page: [https://huggingface.co/datasets/xw27/scibench](https://huggingface.co/datasets/xw27/scibench)
 
 
 **SciBench** is a novel benchmark for college-level scientific problems consisting of _695_
