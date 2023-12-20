@@ -43,4 +43,13 @@ cd eval
 OPENAI_API_KEY=your_key python ana_error.py --setting your_setting 
 ```
 
-
+## Citation
+If you find our paper useful, please cite our paper
+```
+@article{Wang2023SciBenchEC,
+  title={SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models},
+  author={Xiaoxuan Wang and Ziniu Hu and Pan Lu and Yanqiao Zhu and Jieyu Zhang and Satyen Subramaniam and Arjun R. Loomba and Shichang Zhang and Yizhou Sun and Wei Wang},
+  journal={arXiv preprint 2307.10635},
+  year={2023}
+}
+```
