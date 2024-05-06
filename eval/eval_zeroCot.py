@@ -50,18 +50,12 @@ def equiv(model_output, answer, unit):
     model_output=model_output.replace(',', '')
     try:
         ans=float(answer.strip())
-        if ans >=1:
-            first=math.isclose(float(model_output.strip()), ans, abs_tol=0.1)
-        else:
-            first=math.isclose(float(model_output.strip()), ans, rel_tol=0.1)
+        first=math.isclose(float(model_output.strip()), ans, rel_tol=0.05)
     except:
         first=False
     try: 
         model=model_output.strip().split()[0]
-        if ans >=1:
-            second=math.isclose(float(model_output.strip()), ans, abs_tol=0.1)
-        else:
-            second=math.isclose(float(model_output.strip()), ans, rel_tol=0.1)
+        second=math.isclose(float(model.strip()), ans, rel_tol=0.05)
     except:
         second=False
     if first or second:

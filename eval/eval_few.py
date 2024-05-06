@@ -8,6 +8,7 @@ import argparse
 import math
 from prompt import prompt_scai
 from post_process import parse_math_answer, remove_not, cal_not,parse_not
+import random
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def few(sys, problem, problem_eg, exp_eg, answer_eg, unit_eg, Cot):
@@ -59,18 +60,12 @@ def equiv(model_output, answer, unit):
     model_output=model_output.replace(',', '')
     try:
         ans=float(answer.strip())
-        if ans >=1:
-            first=math.isclose(float(model_output.strip()), ans, abs_tol=0.1)
-        else:
-            first=math.isclose(float(model_output.strip()), ans, rel_tol=0.1)
+        first=math.isclose(float(model_output.strip()), ans, rel_tol=0.05)
     except:
         first=False
     try: 
         model=model_output.strip().split()[0]
-        if ans >=1:
-            second=math.isclose(float(model_output.strip()), ans, abs_tol=0.1)
-        else:
-            second=math.isclose(float(model_output.strip()), ans, rel_tol=0.1)
+        second=math.isclose(float(model.strip()), ans, rel_tol=0.05)
     except:
         second=False
     if first or second:
@@ -89,7 +84,7 @@ def get_eg(file):
         problems=json.load(json_file)
         for problem_data in problems:
                 count+=1
-                if count>5:
+                if count>3: 
                     break
                 problem_text=problem_data["problem_text"]+" The unit of the answer is "+problem_data["unit"]+"."
                 problem.append(problem_text)

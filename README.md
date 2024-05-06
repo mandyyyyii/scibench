@@ -1,14 +1,16 @@
 # SciBench
 
 
-**SciBench** is a novel benchmark for college-level scientific problems consisting of _695_
+**SciBench** is a novel benchmark for college-level scientific
 problems sourced from instructional textbooks. The benchmark is designed to evaluate the complex reasoning capabilities,
 strong domain knowledge, and advanced calculation skills of LLMs. 
 
-![Alt text](assets/table.jpeg)
 We developed an innovative **evaluation protocol** for a detailed analysis of reasoning abilities. This
 involves instructing LLMs to self-identify and categorize their errors within a predefined set of
 capabilities. This process offers a fine-grained understanding of where the models are falling short.
+
+## Update
+Our dataset has been updated with minor changes. The previous version can be accessed in the "old" branch. For the latest results based on our most current dataset, please visit our [website](https://scibench-ucla.github.io).
 
 ## Data
 ![Alt text](assets/example.jpg)

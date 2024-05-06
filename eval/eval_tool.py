@@ -71,7 +71,7 @@ def extract_lan(output, lan, session):
         old_stdout = sys.stdout
         redirected_output = sys.stdout = StringIO()
         try:
-            exec(output)
+            exec(output, globals())
             sys.stdout = old_stdout
             ans=redirected_output.getvalue().strip()
         except:
@@ -85,23 +85,15 @@ def extract_lan(output, lan, session):
             return "None"
     return ans
 def equiv(model_output, answer, unit):
-    
+    model_output=model_output.replace(',', '')
     try:
-        # model_output=model_output.replace(',', '')
-        model_output=str(model_output)
         ans=float(answer.strip())
-        if ans >=1:
-            first=math.isclose(float(model_output.strip()), ans, abs_tol=0.1)
-        else:
-            first=math.isclose(float(model_output.strip()), ans, rel_tol=0.1)
+        first=math.isclose(float(model_output.strip()), ans, rel_tol=0.05)
     except:
         first=False
     try: 
         model=model_output.strip().split()[0]
-        if ans >=1:
-            second=math.isclose(float(model_output.strip()), ans, abs_tol=0.1)
-        else:
-            second=math.isclose(float(model_output.strip()), ans, rel_tol=0.1)
+        second=math.isclose(float(model.strip()), ans, rel_tol=0.05)
     except:
         second=False
     if first or second:
@@ -120,7 +112,7 @@ def get_eg(file):
         problems=json.load(json_file)
         for problem_data in problems:
                 count+=1
-                if count>5:
+                if count>3:
                     break
                 problem_text=problem_data["problem_text"]+" The unit of the answer is "+problem_data["unit"]+"."
                 problem.append(problem_text)

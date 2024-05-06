@@ -8,17 +8,20 @@ def remove_not(x):
         return re.split(match_number, x)[-1]
     return None
 def parse_not(inputs):
-    if not inputs:
+    try:
+        if not inputs:
+            return '',''
+        if '\times' in inputs:
+            x,ab=inputs.split('\times')
+        elif '\\times' in inputs:
+            x,ab=inputs.split('\\times')
+        elif '*' in inputs:
+            x,ab=inputs.split('*')
+        else:
+            return inputs
+        return x,ab
+    except:
         return '',''
-    if '\times' in inputs:
-        x,ab=inputs.split('\times')
-    elif '\\times' in inputs:
-        x,ab=inputs.split('\\times')
-    elif '*' in inputs:
-        x,ab=inputs.split('*')
-    else:
-        return inputs
-    return x,ab
 
 def cal_not(inputs):
     
