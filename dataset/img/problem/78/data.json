@@ -1,0 +1,9 @@
+{
+    "problem_text": "Use Simpson's Rule with $n=8$ to estimate the volume of the solid obtained by rotating the region shown in the figure about the $x$-axis.",
+    "answer_latex": " 190",
+    "answer_number": "190",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 7.7.39.a",
+    "comment": " "
+}

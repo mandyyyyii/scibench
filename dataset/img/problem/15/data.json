@@ -1,0 +1,9 @@
+{
+    "problem_text": "Use the given graph of $f$ to find the largest number $\\delta$ such that if $\\quad|x-1|<\\delta \\quad$ then $\\quad|f(x)-1|<0.2$.",
+    "answer_latex": " 0.1",
+    "answer_number": "0.1",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 2.4.1",
+    "comment": " "
+}

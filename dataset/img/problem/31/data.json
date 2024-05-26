@@ -1,0 +1,9 @@
+{
+    "problem_text": "If $f$ and $g$ are the functions whose graphs are shown, let $u(x)=f(g(x)), v(x)=g(f(x))$, and $w(x)=g(g(x))$. Find the derivative, $u^{\\prime}(1)$.",
+    "answer_latex": " $\\frac{3}{4}$",
+    "answer_number": "3/4",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "3.4.65.a",
+    "comment": " "
+}

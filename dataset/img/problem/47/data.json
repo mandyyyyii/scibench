@@ -1,0 +1,9 @@
+{
+    "problem_text": "The speed of a runner increased steadily during the first three seconds of a race. Her speed at half-second intervals is given in the table. Find lower estimate for the distance that she traveled during these three seconds.",
+    "answer_latex": " 34.7",
+    "answer_number": "34.7",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 5.1.13",
+    "comment": " "
+}

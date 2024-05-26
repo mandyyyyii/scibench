@@ -1,0 +1,10 @@
+{
+    "problem_text": "Use the Midpoint Rule with $n=10$ to approximate the integral $\\int_0^1 e^{x^2} d x$.",
+    "solution": "Since $a=0, b=1$, and $n=10$, the Midpoint Rule gives\r\n$$\r\n\\begin{aligned}\r\n\\int_0^1 e^{x^2} d x & \\approx \\Delta x[f(0.05)+f(0.15)+\\cdots+f(0.85)+f(0.95)] \\\\\r\n& =0.1\\left[e^{0.0025}+e^{0.0225}+e^{0.0625}+e^{0.1225}+e^{0.2025}+e^{0.3025}\\right. \\\\\r\n& \\left.\\quad+e^{0.4225}+e^{0.5625}+e^{0.7225}+e^{0.9025}\\right] \\\\\r\n& \\approx 1.460393\r\n\\end{aligned}\r\n$$",
+    "answer_latex": " 1.460393",
+    "answer_number": "1.460393",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 7.7.ex3",
+    "comment": " "
+}

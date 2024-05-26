@@ -1,0 +1,10 @@
+{
+    "problem_text": "Find the volume of the solid obtained by rotating the region in Example 4 about the line $x=-1$.",
+    "solution": "Figure 11 shows a horizontal cross-section. It is a washer with inner radius $1+y$ and outer radius $1+\\sqrt{y}$, so the cross-sectional area is\r\n$$\r\n\\begin{aligned}\r\nA(y) & =\\pi(\\text { outer radius })^2-\\pi(\\text { inner radius })^2 \\\\\r\n& =\\pi(1+\\sqrt{y})^2-\\pi(1+y)^2\r\n\\end{aligned}\r\n$$\r\n\r\nThe volume is\r\n$$\r\n\\begin{aligned}\r\nV & =\\int_0^1 A(y) d y=\\pi \\int_0^1\\left[(1+\\sqrt{y})^2-(1+y)^2\\right] d y \\\\\r\n& =\\pi \\int_0^1\\left(2 \\sqrt{y}-y-y^2\\right) d y=\\pi\\left[\\frac{4 y^{3 / 2}}{3}-\\frac{y^2}{2}-\\frac{y^3}{3}\\right]_0^1=\\frac{\\pi}{2}\r\n\\end{aligned}\r\n$$",
+    "answer_latex": "$\\frac{\\pi}{2}$",
+    "answer_number": "1.57079632679",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 6.2.ex6",
+    "comment": " "
+}

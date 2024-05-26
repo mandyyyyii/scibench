@@ -1,0 +1,9 @@
+{
+    "problem_text": "Let $T(t)$ be the temperature (in ${ }^{\\circ} \\mathrm{F}$ ) in Phoenix $t$ hours after midnight on September 10, 2008. The table shows values of this function recorded every two hours. Estimate the value of $T^{\\prime}(8)$.",
+    "answer_latex": "3.75",
+    "answer_number": "3.75",
+    "unit": " $^{\\circ} \\mathrm{F} / \\mathrm{h}$",
+    "source": "calculus",
+    "problemid": " 2.7.49",
+    "comment": " "
+}

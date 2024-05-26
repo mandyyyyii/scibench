@@ -1,0 +1,9 @@
+{
+    "problem_text": "A light is to be placed atop a pole of height $h$ feet to illuminate a busy traffic circle, which has a radius of $40 \\mathrm{ft}$. The intensity of illumination $I$ at any point $P$ on the circle is directly proportional to the cosine of the angle $\\theta$ (see the figure) and inversely proportional to the square of the distance $d$ from the source. How tall should the light pole be to maximize $I$?",
+    "answer_latex": " 28",
+    "answer_number": "28",
+    "unit": "ft ",
+    "source": "calculus",
+    "problemid": " 4.review.83.a",
+    "comment": " "
+}

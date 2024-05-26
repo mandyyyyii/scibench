@@ -1,0 +1,9 @@
+{
+    "problem_text": "Figure 22-52a shows a nonconducting rod with a uniformly distributed charge $+Q$. The rod forms a half-circle with radius $R$ and produces an electric field of magnitude $E_{\\mathrm{arc}}$ at its center of curvature $P$. If the arc is collapsed to a point at distance $R$ from $P$ (Fig. 22-52b), by what factor is the magnitude of the electric field at $P$ multiplied?",
+    "answer_latex": " $1.57$",
+    "answer_number": "1.57",
+    "unit": " ",
+    "source": "fund",
+    "problemid": " Question 22.29",
+    "comment": " "
+}

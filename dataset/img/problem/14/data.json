@@ -1,0 +1,9 @@
+{
+    "problem_text": "For the function $g$ whose graph is given, state the value of $\\lim _{t \\rightarrow 4} g(t)$.",
+    "answer_latex": " 3",
+    "answer_number": "3",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 2.2.7.h",
+    "comment": " "
+}

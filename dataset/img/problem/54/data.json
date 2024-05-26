@@ -1,0 +1,9 @@
+{
+    "problem_text": "The graph of $f$ is shown. Evaluate each $\\int_0^5 f(x) d x$ by interpreting it in terms of areas.",
+    "answer_latex": " 10",
+    "answer_number": "10",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "5.2.33.b ",
+    "comment": " "
+}

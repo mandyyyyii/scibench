@@ -1,0 +1,9 @@
+{
+    "problem_text": "For the function $f$ whose graph is given, state the value of $\\lim _{x \\rightarrow 3^{+}} f(x)$.",
+    "answer_latex": " 4",
+    "answer_number": "4",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "2.2.5.c ",
+    "comment": " "
+}

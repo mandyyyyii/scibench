@@ -1,0 +1,9 @@
+{
+    "problem_text": "Suppose you design an apparatus in which a uniformly charged disk of radius $R$ is to produce an electric field. The field magnitude is most important along the central perpendicular axis of the disk, at a point $P$ at distance $2.00 R$ from the disk (Fig. 22-57a). Cost analysis suggests that you switch to a ring of the same outer radius $R$ but with inner radius $R / 2.00$ (Fig. 22-57b). Assume that the ring will have the same surface charge density as the original disk. If you switch to the ring, by what percentage will you decrease the electric field magnitude at $P$ ?\r\n",
+    "answer_latex": " $28$",
+    "answer_number": "28",
+    "unit": "$\\%$ ",
+    "source": "fund",
+    "problemid": " Question 22.37",
+    "comment": " "
+}

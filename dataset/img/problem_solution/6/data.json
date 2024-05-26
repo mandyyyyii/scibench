@@ -1,0 +1,10 @@
+{
+    "problem_text": "Figure 4 shows the power consumption in the city of San Francisco for a day in September ( $P$ is measured in megawatts; $t$ is measured in hours starting at midnight). Estimate the energy used on that day.",
+    "solution": "Power is the rate of change of energy: $P(t)=E^{\\prime}(t)$. So, by the Net Change Theorem,\r\n$$\r\n\\int_0^{24} P(t) d t=\\int_0^{24} E^{\\prime}(t) d t=E(24)-E(0)\r\n$$\r\nis the total amount of energy used on that day. We approximate the value of the integral using the Midpoint Rule with 12 subintervals and $\\Delta t=2$ :\r\n$$\r\n\\begin{aligned}\r\n\\int_0^{24} P(t) d t & \\approx[P(1)+P(3)+P(5)+\\cdots+P(21)+P(23)] \\Delta t \\\\\r\n& \\approx(440+400+420+620+790+840+850 \\\\\r\n& +840+810+690+670+550)(2) \\\\\r\n& =15,840\r\n\\end{aligned}\r\n$$\r\n\r\nThe energy used was approximately 15,840 megawatt-hours.",
+    "answer_latex": "15840",
+    "answer_number": "15840",
+    "unit": " megawatt-hours",
+    "source": "calculus",
+    "problemid": " 5.4.ex7",
+    "comment": " "
+}

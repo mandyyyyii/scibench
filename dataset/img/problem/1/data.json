@@ -1,0 +1,9 @@
+{
+    "problem_text": "The graph shows the power consumption for a day in September in San Francisco. $P$ is measured in megawatts; $t$ is measured in hours starting at midnight. What was the power consumption at 6 AM?",
+    "answer_latex": "500",
+    "answer_number": "500",
+    "unit": "MW ",
+    "source": "calculus",
+    "problemid": " 1.1.15",
+    "comment": " "
+}

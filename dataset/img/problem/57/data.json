@@ -1,0 +1,9 @@
+{
+    "problem_text": "Shown is the power consumption in the province of Ontario, Canada, for December 9, 2004 ( $P$ is measured in megawatts; $t$ is measured in hours starting at midnight). Using the fact that power is the rate of change of energy, estimate the energy used on that day.",
+    "answer_latex": " $4.75 \\times 10^5$",
+    "answer_number": "475000",
+    "unit": " megawatt-hours",
+    "source": "calculus",
+    "problemid": " 5.4.71",
+    "comment": " "
+}

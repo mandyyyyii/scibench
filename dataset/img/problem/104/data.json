@@ -1,0 +1,9 @@
+{
+    "problem_text": "In crystals of the salt cesium chloride, cesium ions $\\mathrm{Cs}^{+}$form the eight corners of a cube and a chlorine ion $\\mathrm{Cl}^{-}$is at the cube's center (Fig. 21-36). The edge length of the cube is $0.40 \\mathrm{~nm}$. The $\\mathrm{Cs}^{+}$ions are each deficient by one electron (and thus each has a charge of $+e$ ), and the $\\mathrm{Cl}^{-}$ion has one excess electron (and thus has a charge of $-e$ ). What is the magnitude of the net electrostatic force exerted on the $\\mathrm{Cl}^{-}$ion by the eight $\\mathrm{Cs}^{+}$ions at the corners of the cube?",
+    "answer_latex": " $0$",
+    "answer_number": "0",
+    "unit": " ",
+    "source": "fund",
+    "problemid": " Question 21.35",
+    "comment": " "
+}

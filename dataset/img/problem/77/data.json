@@ -1,0 +1,9 @@
+{
+    "problem_text": "The table (supplied by San Diego Gas and Electric) gives the power consumption $P$ in megawatts in San Diego County from midnight to 6:00 AM on a day in December. Use Simpson's Rule to estimate the energy used during that time period. (Use the fact that power is the derivative of energy.)",
+    "answer_latex": " 10177",
+    "answer_number": "10177",
+    "unit": " megawatt-hours",
+    "source": "calculus",
+    "problemid": " 7.7.37",
+    "comment": " "
+}

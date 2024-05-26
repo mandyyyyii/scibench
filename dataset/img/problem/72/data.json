@@ -1,0 +1,9 @@
+{
+    "problem_text": "Find the average value of $f$ on $[0, 8]$.",
+    "answer_latex": " $\\frac{9}{8}$",
+    "answer_number": "1.125",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "6.5.15 ",
+    "comment": " "
+}

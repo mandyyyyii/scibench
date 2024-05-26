@@ -1,0 +1,9 @@
+{
+    "problem_text": "If $g(x)=\\sqrt{f(x)}$, where the graph of $f$ is shown, evaluate $g^{\\prime}(3)$.",
+    "answer_latex": " $-\\frac{1}{6} \\sqrt{2}$",
+    "answer_number": "-22.627416998",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 3.4.67",
+    "comment": " "
+}

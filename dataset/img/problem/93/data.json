@@ -1,0 +1,9 @@
+{
+    "problem_text": "Figure 23-35 shows a closed Gaussian surface in the shape of a cube of edge length $2.00 \\mathrm{~m}$, with one corner at $x_1=5.00 \\mathrm{~m}, y_1=4.00$ $\\mathrm{m}$. The cube lies in a region where the electric field vector is given by $\\vec{E}=-3.00 \\hat{i}-4.00 y^2 \\hat{j}+3.00 \\hat{\\mathrm{k}} \\mathrm{N} / \\mathrm{C}$, with $y$ in meters. What is the net charge contained by the cube?",
+    "answer_latex": " $-1.70$",
+    "answer_number": "-1.70",
+    "unit": " $\\mathrm{nC}$",
+    "source": "fund",
+    "problemid": " Question 23.11",
+    "comment": " "
+}

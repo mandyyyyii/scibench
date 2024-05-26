@@ -1,0 +1,10 @@
+{
+    "problem_text": "Find the volume of the solid obtained by rotating the region bounded by $y=x-x^2$ and $y=0$ about the line $x=2$.",
+    "solution": "Figure 10 shows the region and a cylindrical shell formed by rotation about the line $x=2$. It has radius $2-x$, circumference $2 \\pi(2-x)$, and height $x-x^2$.\r\n\r\nFIGURE 10\r\nThe volume of the given solid is\r\n$$\r\n\\begin{aligned}\r\nV & =\\int_0^1 2 \\pi(2-x)\\left(x-x^2\\right) d x \\\\\r\n& =2 \\pi \\int_0^1\\left(x^3-3 x^2+2 x\\right) d x \\\\\r\n& =2 \\pi\\left[\\frac{x^4}{4}-x^3+x^2\\right]_0^1=\\frac{\\pi}{2}\r\n\\end{aligned}\r\n$$",
+    "answer_latex": " $\\frac{\\pi}{2}$",
+    "answer_number": "1.57079632679",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 6.3.ex4",
+    "comment": " "
+}

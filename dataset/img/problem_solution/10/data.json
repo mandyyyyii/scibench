@@ -1,0 +1,10 @@
+{
+    "problem_text": "Find the volume of the solid obtained by rotating the region bounded by $y=x^3, y=8$, and $x=0$ about the $y$-axis.",
+    "solution": "The region is shown in Figure 7(a) and the resulting solid is shown in Figure 7 (b). Because the region is rotated about the $y$-axis, it makes sense to slice the solid perpendicular to the $y$-axis and therefore to integrate with respect to $y$. If we slice at height $y$, we get a circular disk with radius $x$, where $x=\\sqrt[3]{y}$. So the area of a crosssection through $y$ is\r\n$$\r\nA(y)=\\pi x^2=\\pi(\\sqrt[3]{y})^2=\\pi y^{2 / 3}\r\n$$\r\nand the volume of the approximating cylinder pictured in Figure 7(b) is\r\n$$\r\nA(y) \\Delta y=\\pi y^{2 / 3} \\Delta y\r\n$$\r\n\r\nSince the solid lies between $y=0$ and $y=8$, its volume is\r\n$$\r\nV=\\int_0^8 A(y) d y=\\int_0^8 \\pi y^{2 / 3} d y=\\pi\\left[\\frac{3}{5} y^{5 / 3}\\right]_0^8=\\frac{96 \\pi}{5}\r\n$$",
+    "answer_latex": "$\\frac{96\\pi}{5}$",
+    "answer_number": "60.3185789489",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 6.2.ex3",
+    "comment": " "
+}

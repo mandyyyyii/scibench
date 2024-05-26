@@ -1,0 +1,9 @@
+{
+    "problem_text": "In Fig. 23-56, a nonconducting spherical shell of inner radius $a=2.00 \\mathrm{~cm}$ and outer radius $b=2.40 \\mathrm{~cm}$ has (within its thickness) a positive volume charge density $\\rho=A / r$, where $A$ is a constant and $r$ is the distance from the center of the shell. In addition, a small ball of charge $q=45.0 \\mathrm{fC}$ is located at that center. What value should $A$ have if the electric field in the shell $(a \\leq r \\leq$ $b)$ is to be uniform?",
+    "answer_latex": " $1.79$",
+    "answer_number": "1.79",
+    "unit": "$10^{-11} \\mathrm{C} / \\mathrm{m}^2$ ",
+    "source": "fund",
+    "problemid": " Question 23.51",
+    "comment": " "
+}

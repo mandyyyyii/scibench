@@ -1,0 +1,9 @@
+{
+    "problem_text": "Estimate the volume if the region is rotated about the $y$-axis. Again use the Midpoint Rule with $n=4$.",
+    "answer_latex": " 838",
+    "answer_number": "838",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 6.2.45.b",
+    "comment": " "
+}

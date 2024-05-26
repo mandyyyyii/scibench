@@ -1,0 +1,9 @@
+{
+    "problem_text": "A point $P$ needs to be located somewhere on the line $A D$ so that the total length $L$ of cables linking $P$ to the points $A, B$, and $C$ is minimized (see the figure). By expressing $L$ as a function of $x=|A P|$ and using the graphs of $L$ and $d L / d x$, estimate the minimum value of $L$.",
+    "answer_latex": " 9.35",
+    "answer_number": "9.35",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "4.7.65 ",
+    "comment": " "
+}

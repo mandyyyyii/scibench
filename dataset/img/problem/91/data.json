@@ -1,0 +1,9 @@
+{
+    "problem_text": "Figure 22-49 shows three circular arcs centered on the origin of a coordinate system. On each arc, the uniformly distributed charge is given in terms of $Q=2.00 \\mu \\mathrm{C}$. The radii are given in terms of $R=10.0 \\mathrm{~cm}$. What is the magnitude of the net electric field at the origin due to the arcs?",
+    "answer_latex": " $1.62$",
+    "answer_number": "1.62",
+    "unit": "$10^6 \\mathrm{~N} / \\mathrm{C}$ ",
+    "source": "fund",
+    "problemid": " Question 22.25",
+    "comment": " "
+}

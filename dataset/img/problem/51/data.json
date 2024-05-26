@@ -1,0 +1,9 @@
+{
+    "problem_text": "The graph of a function $f$ is given. Estimate $\\int_0^{10} f(x) d x$ using five subintervals with midpoints.",
+    "answer_latex": " 2",
+    "answer_number": "2",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 5.2.5.c",
+    "comment": " "
+}

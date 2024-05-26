@@ -1,0 +1,9 @@
+{
+    "problem_text": "The upper right-hand corner of a piece of paper, $12 \\mathrm{in}$. by 8 in., as in the figure, is folded over to the bottom edge. What value of $x$ will to minimize $y$ ?",
+    "answer_latex": " 6",
+    "answer_number": "6",
+    "unit": "in ",
+    "source": "calculus",
+    "problemid": "4.7.69 ",
+    "comment": " "
+}

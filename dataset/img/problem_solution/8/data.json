@@ -1,0 +1,10 @@
+{
+    "problem_text": "Figure 8 shows velocity curves for two cars, $A$ and $B$, that start side by side and move along the same road. What does the area between the curves represent? Use the Midpoint Rule to estimate it.",
+    "solution": "We know from Section 5.4 that the area under the velocity curve $A$ represents the distance traveled by car A during the first 16 seconds. Similarly, the area under curve $B$ is the distance traveled by car $B$ during that time period. So the area between these curves, which is the difference of the areas under the curves, is the distance between the cars after 16 seconds. We read the velocities from the graph and convert them to feet per second $\\left(1 \\mathrm{mi} / \\mathrm{h}=\\frac{5280}{3600} \\mathrm{ft} / \\mathrm{s}\\right)$.\r\n\r\nWe use the Midpoint Rule with $n=4$ intervals, so that $\\Delta t=4$. The midpoints of the intervals are $\\bar{t}_1=2, \\bar{t}_2=6, \\bar{t}_3=10$, and $\\bar{t}_4=14$. We estimate the distance between the cars after 16 seconds as follows:\r\n$$\r\n\\begin{aligned}\r\n\\int_0^{16}\\left(v_A-v_B\\right) d t & \\approx \\Delta t[13+23+28+29] \\\\\r\n& =4(93)=372 \\mathrm{ft}\r\n\\end{aligned}\r\n$$",
+    "answer_latex": " 372",
+    "answer_number": "372",
+    "unit": "ft ",
+    "source": "calculus",
+    "problemid": " 6.1.ex4",
+    "comment": " "
+}

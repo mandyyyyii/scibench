@@ -1,0 +1,1 @@
+{"problem_text": "A graph of the temperature in New York City on September 19, 2009 is shown. Use Simpson's Rule with $n=12$ to estimate the average temperature on that day.", "answer_latex": " 64.4", "answer_number": "64.4", "unit": " $^{\\circ} \\mathrm{F}$", "source": "calculus", "problemid": " 7.8.33", "comment": " "}

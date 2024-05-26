@@ -1,0 +1,9 @@
+{
+    "problem_text": "In Fig. 22-35, the four particles form a square of edge length $a=5.00 \\mathrm{~cm}$ and have charges $q_1=+10.0 \\mathrm{nC}, \\quad q_2=-20.0 \\mathrm{nC}, \\quad q_3=$ $+20.0 \\mathrm{nC}$, and $q_4=-10.0 \\mathrm{nC}$. In unitvector notation, what net electric field do the particles produce at the square's center?",
+    "answer_latex": " $1.02$",
+    "answer_number": "1.02",
+    "unit": "$\\mathrm{~N} / \\mathrm{C} \\hat{\\mathrm{j}}$ ",
+    "source": "fund",
+    "problemid": " Question 22.7",
+    "comment": " "
+}

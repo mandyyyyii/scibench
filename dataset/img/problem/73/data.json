@@ -1,0 +1,9 @@
+{
+    "problem_text": "Use the Midpoint Rule and the given data to estimate the value of the integral $\\int_1^5 f(x) d x$.",
+    "answer_latex": " 14.4",
+    "answer_number": "14.4",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 7.7.31.a",
+    "comment": " "
+}

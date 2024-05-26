@@ -1,0 +1,9 @@
+{
+    "problem_text": " Where should the point $P$ be chosen on the line segment $A B$ so as to maximize the angle $\\theta$ ?",
+    "answer_latex": " $5-2 \\sqrt{5}$",
+    "answer_number": "0.527",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 4.7.73",
+    "comment": " "
+}

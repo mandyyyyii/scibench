@@ -1,0 +1,9 @@
+{
+    "problem_text": "The graph of $f$ is given. Find the limit, $\\lim _{x \\rightarrow-\\infty} f(x)$.",
+    "answer_latex": " -1",
+    "answer_number": "-1",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "2.review.1.viii ",
+    "comment": " "
+}

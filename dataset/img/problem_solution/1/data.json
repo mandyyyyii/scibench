@@ -1,0 +1,10 @@
+{
+    "problem_text": "Estimate the value of $\\lim _{t \\rightarrow 0} \\frac{\\sqrt{t^2+9}-3}{t^2}$.",
+    "solution": "The table lists values of the function for several values of $t$ near 0 .\r\n\r\nAs $t$ approaches 0 , the values of the function seem to approach $0.1666666 \\ldots$ and so we guess that\r\n$$\r\n\\lim _{t \\rightarrow 0} \\frac{\\sqrt{t^2+9}-3}{t^2}=\\frac{1}{6}\r\n$$",
+    "answer_latex": " $\\frac{1}{6}$",
+    "answer_number": "0.16666666666",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 2.2.ex2",
+    "comment": " "
+}

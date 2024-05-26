@@ -1,0 +1,9 @@
+{
+    "problem_text": "$\\bullet \\bullet 17$ Two charged beads are on the plastic ring in Fig. 22-44a. Bead 2 , which is not shown, is fixed in place on the ring, which has radius $R=60.0 \\mathrm{~cm}$. Bead 1 , which is not fixed in place, is initially on the $x$ axis at angle $\\theta=0^{\\circ}$. It is then moved to the opposite side, at angle $\\theta=180^{\\circ}$, through the first and second quadrants of the $x y$ coordinate system. Figure 22-44b gives the $x$ component of the net electric field produced at the origin by the two beads as a function of $\\theta$, and Fig. 22-44c gives the $y$ component of that net electric field. The vertical axis scales are set by $E_{x s}=5.0 \\times 10^4 \\mathrm{~N} / \\mathrm{C}$ and $E_{y s}=$ $-9.0 \\times 10^4 \\mathrm{~N} / \\mathrm{C}$. At what angle $\\theta$ is bead 2 located?",
+    "answer_latex": " $-90$",
+    "answer_number": "-90",
+    "unit": "$^{\\circ}$ ",
+    "source": "fund",
+    "problemid": " Question 22.17",
+    "comment": " "
+}

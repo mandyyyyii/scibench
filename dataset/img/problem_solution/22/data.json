@@ -1,0 +1,10 @@
+{
+    "problem_text": "\nA container is divided into two equal compartments. One contains $3.0 \\mathrm{~mol} \\mathrm{H}_2(\\mathrm{~g})$ at $25^{\\circ} \\mathrm{C}$; the other contains $1.0 \\mathrm{~mol} \\mathrm{~N}_2(\\mathrm{~g})$ at $25^{\\circ} \\mathrm{C}$. Calculate the Gibbs energy of mixing when the partition is removed. Assume perfect behaviour.\n",
+    "answer_latex": " -6.9",
+    "answer_number": "-6.9",
+    "unit": " $\\mathrm{~kJ}$",
+    "source": "atkins",
+    "problemid": " 5.2",
+    "comment": " ",
+    "solution": "Given that the pressure of nitrogen is $p$, the pressure of hydrogen is $3 p$; therefore, the initial Gibbs energy is\r\n$$\r\nG_{\\mathrm{i}}=(3.0 \\mathrm{~mol})\\left\\{\\mu^{\\ominus}\\left(\\mathrm{H}_2\\right)+R T \\ln 3 p\\right\\}+(1.0 \\mathrm{~mol})\\left\\{\\mu^{\\ominus}\\left(\\mathrm{N}_2\\right)+R T \\ln p\\right\\}\r\n$$\r\nWhen the partition is removed and each gas occupies twice the original volume, the partial pressure of nitrogen falls to $\\frac{1}{2} p$ and that of hydrogen falls to $\\frac{3}{2} p$. Therefore, the Gibbs energy changes to\r\n$$\r\nG_{\\mathrm{f}}=(3.0 \\mathrm{~mol})\\left\\{\\mu^{\\ominus}\\left(\\mathrm{H}_2\\right)+R T \\ln \\frac{3}{2} p\\right\\}+(1.0 \\mathrm{~mol})\\left\\{\\mu^{\\ominus}\\left(\\mathrm{N}_2\\right)+R T \\ln \\frac{1}{2} p\\right\\}\r\n$$\r\nThe Gibbs energy of mixing is the difference of these two quantities:\r\n$$\r\n\\begin{aligned}\r\n\\Delta_{\\text {mix }} G & =(3.0 \\mathrm{~mol}) R T \\ln \\left(\\frac{\\frac{3}{2} p}{3 p}\\right)+(1.0 \\mathrm{~mol}) R T \\ln \\left(\\frac{\\frac{1}{2} p}{p}\\right) \\\\\r\n& =-(3.0 \\mathrm{~mol}) R T \\ln 2-(1.0 \\mathrm{~mol}) R T \\ln 2 \\\\\r\n& =-(4.0 \\mathrm{~mol}) R T \\ln 2=-6.9 \\mathrm{~kJ}\r\n\\end{aligned}\r\n$$\r\n"
+}

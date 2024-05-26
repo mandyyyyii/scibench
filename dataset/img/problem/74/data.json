@@ -1,0 +1,9 @@
+{
+    "problem_text": "If it is known that $-2 \\leqslant f^{\\prime \\prime}(x) \\leqslant 3$ for all $x$, estimate the error involved in using the Midpoint Rule for an approximation of the integral $\\int_1^5 f(x) d x$.",
+    "answer_latex": " $\\frac{1}{2}$",
+    "answer_number": "0.5",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 7.7.31.b",
+    "comment": " "
+}

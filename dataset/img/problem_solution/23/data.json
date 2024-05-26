@@ -1,0 +1,10 @@
+{
+    "problem_text": "\nA $2.00 \\mathrm{~kg}$ particle moves along an $x$ axis in one-dimensional motion while a conservative force along that axis acts on it. The potential energy $U(x)$ associated with the force is plotted in the figure. That is, if the particle were placed at any position between $x=0$ and $x=7.00 \\mathrm{~m}$, it would have the plotted value of $U$. At $x=6.5 \\mathrm{~m}$, the particle has velocity $\\vec{v}_0=(-4.00 \\mathrm{~m} / \\mathrm{s}) \\hat{\\mathrm{i}}$\r\nFrom Figure, determine the particle's speed at $x_1=4.5 \\mathrm{~m}$.\n",
+    "answer_latex": "3.0",
+    "answer_number": "3.0",
+    "unit": " m/s",
+    "source": "fund",
+    "problemid": " 8.04",
+    "comment": " ",
+    "solution": "\n(1) The particle's kinetic energy is given by Eq. 7-1 $\\left(K=\\frac{1}{2} m v^2\\right)$. (2) Because only a conservative force acts on the particle, the mechanical energy $E_{\\mathrm{mec}}(=K+U)$ is conserved as the particle moves. (3) Therefore, on a plot of $U(x)$ such as Fig. 8-10a, the kinetic energy is equal to the difference between $E_{\\mathrm{mec}}$ and $U$.\nCalculations: At $x=6.5 \\mathrm{~m}$, the particle has kinetic energy\n$$\n\\begin{aligned}\nK_0 & =\\frac{1}{2} m v_0^2=\\frac{1}{2}(2.00 \\mathrm{~kg})(4.00 \\mathrm{~m} / \\mathrm{s})^2 \\\\\n& =16.0 \\mathrm{~J} .\n\\end{aligned}\n$$\nBecause the potential energy there is $U=0$, the mechanical energy is\n$$\nE_{\\text {mec }}=K_0+U_0=16.0 \\mathrm{~J}+0=16.0 \\mathrm{~J} .\n$$\nThis value for $E_{\\mathrm{mec}}$ is plotted as a horizontal line in Fig. 8-10a. From that figure we see that at $x=4.5 \\mathrm{~m}$, the potential energy is $U_1=7.0 \\mathrm{~J}$. The kinetic energy $K_1$ is the difference between $E_{\\text {mec }}$ and $U_1$ :\n$$\nK_1=E_{\\text {mec }}-U_1=16.0 \\mathrm{~J}-7.0 \\mathrm{~J}=9.0 \\mathrm{~J} .\n$$\nBecause $K_1=\\frac{1}{2} m v_1^2$, we find\n$$\nv_1=3.0 \\mathrm{~m} / \\mathrm{s}\n$$\n"
+}

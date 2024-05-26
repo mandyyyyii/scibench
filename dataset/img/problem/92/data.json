@@ -1,0 +1,9 @@
+{
+    "problem_text": "Figure 22-37 shows two charged particles on an $x$ axis: $-q=$ $-3.20 \\times 10^{-19} \\mathrm{C}$ at $x=-3.00 \\mathrm{~m}$ and $q=3.20 \\times 10^{-19} \\quad \\mathrm{C}$ at $x=+3.00 \\mathrm{~m}$. What is the magnitude of the net electric field produced at point $P$ at $y=4.00 \\mathrm{~m}$ ?",
+    "answer_latex": " $1.38$",
+    "answer_number": "1.38",
+    "unit": "$10^{-10} \\mathrm{~N} / \\mathrm{C} $ ",
+    "source": "fund",
+    "problemid": " Question 22.9",
+    "comment": " "
+}

@@ -1,0 +1,9 @@
+{
+    "problem_text": "The number $N$ of US cellular phone subscribers (in millions) is shown in the table. (Midyear estimates are given.). Estimate the instantaneous rate of growth in 2002 by taking the average of two average rates of change with units.",
+    "answer_latex": " 18.25",
+    "answer_number": "18.25",
+    "unit": "million/year ",
+    "source": "calculus",
+    "problemid": "2.7.43.b",
+    "comment": " "
+}

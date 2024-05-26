@@ -1,0 +1,9 @@
+{
+    "problem_text": " The square surface shown in Fig. 23-30 measures $3.2 \\mathrm{~mm}$ on each side. It is immersed in a uniform electric field with magnitude $E=1800 \\mathrm{~N} / \\mathrm{C}$ and with field lines at an angle of $\\theta=35^{\\circ}$ with a normal to the surface, as shown. Take that normal to be directed \"outward,\" as though the surface were one face of a box. Calculate the electric flux through the surface.",
+    "answer_latex": " $-0.015$",
+    "answer_number": "-0.015",
+    "unit": "$\\mathrm{~N} \\cdot \\mathrm{m}^2 / \\mathrm{C}$ ",
+    "source": "fund",
+    "problemid": " Question 23.1",
+    "comment": " "
+}

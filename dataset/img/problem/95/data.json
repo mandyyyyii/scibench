@@ -1,0 +1,9 @@
+{
+    "problem_text": "In Fig. 23-33, a proton is a distance $d / 2$ directly above the center of a square of side $d$. What is the magnitude of the electric flux through the square? (Hint: Think of the square as one face of a cube with edge $d$.",
+    "answer_latex": " $3.01$",
+    "answer_number": "3.01",
+    "unit": "$\\mathrm{nN} \\cdot \\mathrm{m}^2 / \\mathrm{C}$ ",
+    "source": "fund",
+    "problemid": " Question 23.5",
+    "comment": " "
+}

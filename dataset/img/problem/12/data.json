@@ -1,0 +1,9 @@
+{
+    "problem_text": "For the function $g$ whose graph is given, state the value of $\\lim _{t \\rightarrow 2} g(t)$.",
+    "answer_latex": " 0",
+    "answer_number": "0",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 2.2.7.e",
+    "comment": " "
+}

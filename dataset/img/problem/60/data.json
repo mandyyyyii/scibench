@@ -1,0 +1,9 @@
+{
+    "problem_text": "A population of honeybees increased at a rate of $r(t)$ bees per week, where the graph of $r$ is as shown. Use the Midpoint Rule with six subintervals to estimate the increase in the bee population during the first 24 weeks.",
+    "answer_latex": " 72400",
+    "answer_number": "72400",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 5.review.59",
+    "comment": " "
+}

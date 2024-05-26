@@ -1,0 +1,10 @@
+{
+    "problem_text": "Use the Trapezoidal Rule with $n=5$ to approximate the integral $\\int_1^2(1 / x) d x$.",
+    "solution": "With $n=5, a=1$, and $b=2$, we have $\\Delta x=(2-1) / 5=0.2$, and so the Trapezoidal Rule gives\r\n$$\r\n\\begin{aligned}\r\n\\int_1^2 \\frac{1}{x} d x & \\approx T_5=\\frac{0.2}{2}[f(1)+2 f(1.2)+2 f(1.4)+2 f(1.6)+2 f(1.8)+f(2)] \\\\\r\n& =0.1\\left(\\frac{1}{1}+\\frac{2}{1.2}+\\frac{2}{1.4}+\\frac{2}{1.6}+\\frac{2}{1.8}+\\frac{1}{2}\\right) \\\\\r\n& \\approx 0.695635\r\n\\end{aligned}\r\n$$\r\n\r\nThis approximation is illustrated in Figure 3.",
+    "answer_latex": " 0.695635",
+    "answer_number": "0.695635",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 7.7.ex1",
+    "comment": " "
+}

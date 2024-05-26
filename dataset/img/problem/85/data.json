@@ -1,0 +1,9 @@
+{
+    "problem_text": "Figure 22-47 shows two parallel nonconducting rings with their central axes along a common line. Ring 1 has uniform charge $q_1$ and radius $R$; ring 2 has uniform charge $q_2$ and the same radius $R$. The rings are separated by distance $d=3.00 R$. The net electric field at point $P$ on the common line, at distance $R$ from ring, is zero. What is the ratio $q_1 / q_2$ ?",
+    "answer_latex": "$0.506$",
+    "answer_number": "0.506",
+    "unit": " ",
+    "source": "fund",
+    "problemid": " Question 22.23",
+    "comment": " "
+}

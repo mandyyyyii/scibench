@@ -1,0 +1,10 @@
+{
+    "problem_text": "Guess the value of $\\lim _{x \\rightarrow 0} \\frac{\\sin x}{x}$.",
+    "solution": "The function $f(x)=(\\sin x) / x$ is not defined when $x=0$. Using a calculator (and remembering that, if $x \\in \\mathbb{R}, \\sin x$ means the sine of the angle whose radian measure is $x$ ), we construct a table of values correct to eight decimal places. From the table at the left and the graph in Figure 6 we guess that\r\n$$\r\n\\lim _{x \\rightarrow 0} \\frac{\\sin x}{x}=1\r\n$$\r\n\r\nThis guess is in fact correct, as will be proved in Chapter 3 using a geometric argument.",
+    "answer_latex": " 1",
+    "answer_number": "1",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 2.2.ex3",
+    "comment": " "
+}

@@ -1,0 +1,9 @@
+{
+    "problem_text": "The table gives estimates of the world population, in millions, from 1750 to 2000. Use the exponential model and the population figures for 1900 and 1950 to predict the world population in 2000. ",
+    "answer_latex": " 3972",
+    "answer_number": "3972",
+    "unit": "million ",
+    "source": "calculus",
+    "problemid": "3.8.5.c ",
+    "comment": " "
+}

@@ -1,0 +1,10 @@
+{
+    "problem_text": "For the region $S$ in Example 1, show that the sum of the areas of the upper approximating rectangles approaches $\\frac{1}{3}$, that is,\r\n$$\r\n\\lim _{n \\rightarrow \\infty} R_n=\\frac{1}{3}\r\n$$",
+    "solution": "$R_n$ is the sum of the areas of the $n$ rectangles in Figure 7 . Each rectangle has width $1 / n$ and the heights are the values of the function $f(x)=x^2$ at the points $1 / n, 2 / n, 3 / n, \\ldots, n / n$, that is, the heights are $(1 / n)^2,(2 / n)^2,(3 / n)^2, \\ldots,(n / n)^2$. Thus\r\n$$\r\n\\begin{aligned}\r\nR_n & =\\frac{1}{n}\\left(\\frac{1}{n}\\right)^2+\\frac{1}{n}\\left(\\frac{2}{n}\\right)^2+\\frac{1}{n}\\left(\\frac{3}{n}\\right)^2+\\cdots+\\frac{1}{n}\\left(\\frac{n}{n}\\right)^2 \\\\\r\n& =\\frac{1}{n} \\cdot \\frac{1}{n^2}\\left(1^2+2^2+3^2+\\cdots+n^2\\right) \\\\\r\n& =\\frac{1}{n^3}\\left(1^2+2^2+3^2+\\cdots+n^2\\right)\r\n\\end{aligned}\r\n$$\r\n\r\nHere we need the formula for the sum of the squares of the first $n$ positive integers:\r\n1\r\n$$\r\n1^2+2^2+3^2+\\cdots+n^2=\\frac{n(n+1)(2 n+1)}{6}\r\n$$\r\n\r\nPerhaps you have seen this formula before. It is proved in Example 5 in Appendix E. Putting Formula 1 into our expression for $R_n$, we get\r\n$$\r\nR_n=\\frac{1}{n^3} \\cdot \\frac{n(n+1)(2 n+1)}{6}=\\frac{(n+1)(2 n+1)}{6 n^2}\r\n$$\r\n\r\nThus we have\r\n$$\r\n\\begin{aligned}\r\n\\lim _{n \\rightarrow \\infty} R_n & =\\lim _{n \\rightarrow \\infty} \\frac{(n+1)(2 n+1)}{6 n^2} \\\\\r\n& =\\lim _{n \\rightarrow \\infty} \\frac{1}{6}\\left(\\frac{n+1}{n}\\right)\\left(\\frac{2 n+1}{n}\\right) \\\\\r\n& =\\lim _{n \\rightarrow \\infty} \\frac{1}{6}\\left(1+\\frac{1}{n}\\right)\\left(2+\\frac{1}{n}\\right) \\\\\r\n& =\\frac{1}{6} \\cdot 1 \\cdot 2=\\frac{1}{3}\r\n\\end{aligned}\r\n$$",
+    "answer_latex": " $\\frac{1}{3}$",
+    "answer_number": "0.33333333",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 5.1.ex2",
+    "comment": " "
+}

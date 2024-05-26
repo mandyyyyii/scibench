@@ -1,0 +1,9 @@
+{
+    "problem_text": "If $f$ and $g$ are the functions whose graphs are shown, let $u(x)=f(x) g(x)$ and $v(x)=f(x) / g(x)$. Find $v^{\\prime}(5)$.",
+    "answer_latex": "$ -\\frac{2}{3}$",
+    "answer_number": "-2/3",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "3.2.49.b ",
+    "comment": " "
+}

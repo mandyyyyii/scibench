@@ -1,0 +1,9 @@
+{
+    "problem_text": "Fig. 23-31 shows a Gaussian surface in the shape of a cube with edge length $1.40 \\mathrm{~m}$. What is the net flux $\\Phi$ through the surface if $\\vec{E}=(3.00 y \\hat{j}) \\mathrm{N} / \\mathrm{C}$, with $y$ in meters?",
+    "answer_latex": " $8.23$",
+    "answer_number": "8.23",
+    "unit": " $\\mathrm{~N} \\cdot \\mathrm{m}^2 / \\mathrm{C}$ ",
+    "source": "fund",
+    "problemid": " Question 23.9",
+    "comment": " "
+}

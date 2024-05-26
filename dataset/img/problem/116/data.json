@@ -1,0 +1,9 @@
+{
+    "problem_text": "Figure 22-40 shows a proton (p) on the central axis through a disk with a uniform charge density due to excess electrons. The disk is seen from an edge-on view. Three of those electrons are shown: electron $\\mathrm{e}_c$ at the disk center and electrons $\\mathrm{e}_s$ at opposite sides of the disk, at radius $R$ from the center. The proton is initially at distance $z=R=2.00 \\mathrm{~cm}$ from the disk. At that location, what is the magnitude of the electric field $\\vec{E}_c$ due to electron $\\mathrm{e}_c$?",
+    "answer_latex": " $3.60$",
+    "answer_number": "3.60",
+    "unit": "$10^{-6} \\mathrm{~N} / \\mathrm{C}$ ",
+    "source": "fund",
+    "problemid": " Question 22.13",
+    "comment": " "
+}

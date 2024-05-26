@@ -1,0 +1,9 @@
+{
+    "problem_text": "For the function $g$ whose graph is given, state the value of $\\lim _{t \\rightarrow 0^{+}} g(t)$.",
+    "answer_latex": " -2",
+    "answer_number": "-2",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "2.2.7.b ",
+    "comment": " "
+}

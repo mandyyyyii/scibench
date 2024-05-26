@@ -1,0 +1,10 @@
+{
+    "problem_text": "Find the volume of the solid obtained by rotating about the $y$-axis the region between $y=x$ and $y=x^2$.",
+    "solution": "The region and a typical shell are shown in Figure 8 . We see that the shell has radius $x$, circumference $2 \\pi x$, and height $x-x^2$. So the volume is\r\n$$\r\n\\begin{aligned}\r\nV & =\\int_0^1(2 \\pi x)\\left(x-x^2\\right) d x=2 \\pi \\int_0^1\\left(x^2-x^3\\right) d x \\\\\r\n& =2 \\pi\\left[\\frac{x^3}{3}-\\frac{x^4}{4}\\right]_0^1=\\frac{\\pi}{6}\r\n\\end{aligned}\r\n$$",
+    "answer_latex": " $\\frac{\\pi}{6}",
+    "answer_number": "0.52359877559",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 6.3.ex2",
+    "comment": " "
+}

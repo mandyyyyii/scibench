@@ -1,0 +1,10 @@
+{
+    "problem_text": "Find the volume of the solid obtained by rotating the region in Example 4 about the line $y=2$.",
+    "solution": "The solid and a cross-section are shown in Figure 9. Again the cross-section is a washer, but this time the inner radius is $2-x$ and the outer radius is $2-x^2$.\r\n\r\nThe cross-sectional area is\r\n$$\r\nA(x)=\\pi\\left(2-x^2\\right)^2-\\pi(2-x)^2\r\n$$\r\nand so the volume of $S$ is\r\n$$\r\n\\begin{aligned}\r\nV & =\\int_0^1 A(x) d x \\\\\r\n& =\\pi \\int_0^1\\left[\\left(2-x^2\\right)^2-(2-x)^2\\right] d x \\\\\r\n& =\\pi \\int_0^1\\left(x^4-5 x^2+4 x\\right) d x \\\\\r\n& =\\pi\\left[\\frac{x^5}{5}-5 \\frac{x^3}{3}+4 \\frac{x^2}{2}\\right]_0^1 \\\\\r\n& =\\frac{8 \\pi}{15}\r\n\\end{aligned}",
+    "answer_latex": " $\\frac{8\\pi}{15}$",
+    "answer_number": "1.67551608191",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 6.2.ex5",
+    "comment": " "
+}

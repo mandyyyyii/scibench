@@ -1,0 +1,9 @@
+{
+    "problem_text": "The graph of the acceleration $a(t)$ of a car measured in $\\mathrm{ft} / \\mathrm{s}^2$ is shown. Use Simpson's Rule to estimate the increase in the velocity of the car during the 6-second time interval.",
+    "answer_latex": " 37.73",
+    "answer_number": "37.73",
+    "unit": " ft/s",
+    "source": "calculus",
+    "problemid": " 7.7.35",
+    "comment": " "
+}

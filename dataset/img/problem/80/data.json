@@ -1,0 +1,1 @@
+{"problem_text": "The graph of the concentration function $c(t)$ is shown after a 7-mg injection of dye into a heart. Use Simpson's Rule to estimate the cardiac output.", "answer_latex": " 5.77", "answer_number": "5.77", "unit": " $\\mathrm{L}/\\mathrm{min}$", "source": "calculus", "problemid": "8.4.19 ", "comment": " "}

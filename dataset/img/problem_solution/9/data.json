@@ -1,0 +1,10 @@
+{
+    "problem_text": "Find the area of the region bounded above by $y=e^x$, bounded below by $y=x$, and bounded on the sides by $x=0$ and $x=1$.",
+    "solution": "The region is shown in Figure 4. The upper boundary curve is $y=e^x$ and the lower boundary curve is $y=x$. So we use the area formula 2 with $f(x)=e^x, g(x)=x$, $a=0$, and $b=1$ :\r\n$$\r\n\\begin{aligned}\r\nA & \\left.=\\int_0^1\\left(e^x-x\\right) d x=e^x-\\frac{1}{2} x^2\\right]_0^1 \\\\\r\n& =e-\\frac{1}{2}-1=e-1.5\r\n\\end{aligned}\r\n$$",
+    "answer_latex": " $e - 1.5$",
+    "answer_number": "1.21828182846",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 6.1.ex1",
+    "comment": " "
+}

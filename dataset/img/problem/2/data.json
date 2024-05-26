@@ -1,0 +1,9 @@
+{
+    "problem_text": "Use the given graphs of $f$ and $g$ to evaluate $f(g(2))$.",
+    "answer_latex": " 4",
+    "answer_number": "4",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 1.4.51",
+    "comment": " "
+}

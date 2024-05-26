@@ -1,0 +1,9 @@
+{
+    "problem_text": "In Fig. 22-69, particle 1 of charge $q_1=1.00 \\mathrm{pC}$ and particle 2 of charge $q_2=-2.00 \\mathrm{pC}$ are fixed at a distance $d=5.00 \\mathrm{~cm}$ apart. In unit-vector notation, what is the net electric field at point $A$?",
+    "answer_latex": " $-1.80$",
+    "answer_number": "-1.80",
+    "unit": "$\\mathrm{~N} / \\mathrm{C} \\hat{\\mathrm{i}} $ ",
+    "source": "fund",
+    "problemid": " Question 22.87",
+    "comment": " "
+}

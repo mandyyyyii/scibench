@@ -1,0 +1,9 @@
+{
+    "problem_text": "If $f$ and $g$ are the functions whose graphs are shown, let $u(x)=f(x) g(x)$ and $v(x)=f(x) / g(x)$. Find $u^{\\prime}(1)$.",
+    "answer_latex": " 0",
+    "answer_number": "0",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "3.2.49.a ",
+    "comment": " "
+}

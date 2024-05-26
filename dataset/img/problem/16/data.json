@@ -1,0 +1,9 @@
+{
+    "problem_text": "For the function $f$ whose graph is given, state $\\lim _{x \\rightarrow \\infty} f(x)$.",
+    "answer_latex": " -2",
+    "answer_number": "-2",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 2.6.3.a",
+    "comment": " "
+}

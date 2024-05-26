@@ -1,0 +1,10 @@
+{
+    "problem_text": "A wedge is cut out of a circular cylinder of radius 4 by two planes. One plane is perpendicular to the axis of the cylinder. The other intersects the first at an angle of $30^{\\circ}$ along a diameter of the cylinder. Find the volume of the wedge.",
+    "solution": "If we place the $x$-axis along the diameter where the planes meet, then the base of the solid is a semicircle with equation $y=\\sqrt{16-x^2},-4 \\leqslant x \\leqslant 4$. A crosssection perpendicular to the $x$-axis at a distance $x$ from the origin is a triangle $A B C$, as shown in Figure 17, whose base is $y=\\sqrt{16-x^2}$ and whose height is $|B C|=y \\tan 30^{\\circ}=\\sqrt{16-x^2} / \\sqrt{3}$. Thus the cross-sectional area is\r\n$$\r\nA(x)=\\frac{1}{2} \\sqrt{16-x^2} \\cdot \\frac{1}{\\sqrt{3}} \\sqrt{16-x^2}=\\frac{16-x^2}{2 \\sqrt{3}}\r\n$$\r\nand the volume is\r\n$$\r\n\\begin{aligned}\r\nV & =\\int_{-4}^4 A(x) d x=\\int_{-4}^4 \\frac{16-x^2}{2 \\sqrt{3}} d x \\\\\r\n& =\\frac{1}{\\sqrt{3}} \\int_0^4\\left(16-x^2\\right) d x=\\frac{1}{\\sqrt{3}}\\left[16 x-\\frac{x^3}{3}\\right]_0^4\r\n\\end{aligned}\r\n$$\r\n$$\r\n=\\frac{128}{3 \\sqrt{3}}\r\n$$",
+    "answer_latex": "$\\frac{128}{3 \\sqrt{3}}$",
+    "answer_number": "24.6336114854",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 6.2.ex9",
+    "comment": " "
+}

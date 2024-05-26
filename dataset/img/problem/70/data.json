@@ -1,0 +1,9 @@
+{
+    "problem_text": "If the region shown in the figure is rotated about the $x$-axis to form a solid, use the Midpoint Rule with $n=4$ to estimate the volume of the solid.",
+    "answer_latex": " 196",
+    "answer_number": "196",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 6.2.45.a",
+    "comment": " "
+}

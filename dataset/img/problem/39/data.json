@@ -1,0 +1,9 @@
+{
+    "problem_text": "Suppose that the only information we have about a function $f$ is that $f(1)=5$ and the graph of its derivative is as shown. Use a linear approximation to estimate $f(0.9)$.",
+    "answer_latex": " 4.8",
+    "answer_number": "4.8",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "3.10.43.a ",
+    "comment": " "
+}

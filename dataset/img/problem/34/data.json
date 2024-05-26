@@ -1,0 +1,9 @@
+{
+    "problem_text": "The table gives the population of the world in the 20th century. Estimate the rate of population growth in 1920 and in 1980 by averaging the slopes of two secant lines.",
+    "answer_latex": "16",
+    "answer_number": "16",
+    "unit": "million/year ",
+    "source": "calculus",
+    "problemid": "3.7.27.a ",
+    "comment": " "
+}

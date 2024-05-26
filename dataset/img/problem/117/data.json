@@ -1,0 +1,9 @@
+{
+    "problem_text": " In Fig. 22-64a, a particle of charge $+Q$ produces an electric field of magnitude $E_{\\text {part }}$ at point $P$, at distance $R$ from the particle. In Fig. 22-64b, that same amount of charge is spread uniformly along a circular arc that has radius $R$ and subtends an angle $\\theta$. The charge on the arc produces an electric field of magnitude $E_{\\mathrm{arc}}$ at its center of curvature $P$. For what value of $\\theta$ does $E_{\\text {arc }}=$ $0.500 E_{\\text {part }}$ ? (Hint: You will probably resort to a graphical solution.)",
+    "answer_latex": " $217$",
+    "answer_number": "217",
+    "unit": "$^{\\circ}$ ",
+    "source": "fund",
+    "problemid": " Question 22.65",
+    "comment": " "
+}

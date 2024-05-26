@@ -1,0 +1,10 @@
+{
+    "problem_text": "Guess the value of $\\lim _{x \\rightarrow 1} \\frac{x-1}{x^2-1}$.",
+    "solution": "Notice that the function $f(x)=(x-1) /\\left(x^2-1\\right)$ is not defined when $x=1$, but that doesn't matter because the definition of $\\lim _{x \\rightarrow a} f(x)$ says that we consider values of $x$ that are close to $a$ but not equal to $a$.\r\n\r\nThe tables at the left give values of $f(x)$ (correct to six decimal places) for values of $x$ that approach 1 (but are not equal to 1). On the basis of the values in the tables, we make the guess that\r\n$$\r\n\\lim _{x \\rightarrow 1} \\frac{x-1}{x^2-1}=0.5\r\n$$\r\n\r\nExample 1 is illustrated by the graph of $f$ in Figure 3. Now let's change $f$ slightly by giving it the value 2 when $x=1$ and calling the resulting function $g$ :\r\n$$\r\ng(x)= \\begin{cases}\\frac{x-1}{x^2-1} & \\text { if } x \\neq 1 \\\\ 2 & \\text { if } x=1\\end{cases}\r\n$$\r\n\r\nThis new function $g$ still has the same limit as $x$ approaches 1. (See Figure)",
+    "answer_latex": " 1",
+    "answer_number": "1",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "2.2.ex1",
+    "comment": " "
+}

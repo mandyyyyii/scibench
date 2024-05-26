@@ -1,0 +1,9 @@
+{
+    "problem_text": "If $f$ and $g$ are the functions whose graphs are shown, let $u(x)=f(g(x)), v(x)=g(f(x))$, and $w(x)=g(g(x))$. Find the derivative, $w^{\\prime}(1)$.",
+    "answer_latex": " -2",
+    "answer_number": "-2",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "3.4.65.c",
+    "comment": " "
+}

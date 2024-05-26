@@ -1,0 +1,9 @@
+{
+    "problem_text": "In Fig. 23-49, a small, nonconducting ball of mass $m=1.0 \\mathrm{mg}$ and charge $q=2.0 \\times$ $10^{-8} \\mathrm{C}$ (distributed uniformly through its volume) hangs from an insulating thread that makes an angle $\\theta=30^{\\circ}$ with a vertical, uniformly charged nonconducting sheet (shown in cross section). Considering the gravitational force on the ball and assuming the sheet extends far vertically and into and out of the page, calculate the surface charge density $\\sigma$ of the sheet.",
+    "answer_latex": " $5.0$",
+    "answer_number": "5.0",
+    "unit": "$\\mathrm{nC} / \\mathrm{m}^2$ ",
+    "source": "fund",
+    "problemid": " Question 23.39",
+    "comment": " "
+}

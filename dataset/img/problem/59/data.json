@@ -1,0 +1,9 @@
+{
+    "problem_text": "Use the given graph of $f$ to find the Riemann sum with six subintervals. Take the sample points to be midpoints.",
+    "answer_latex": " 5.7",
+    "answer_number": "5.7",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": " 5.review.1.b",
+    "comment": " "
+}

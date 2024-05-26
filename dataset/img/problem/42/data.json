@@ -1,0 +1,9 @@
+{
+    "problem_text": "Use the graphs of $f$ and $g$ and their tangent lines at $(2,0)$ to find $\\lim _{x \\rightarrow 2} \\frac{f(x)}{g(x)}$.",
+    "answer_latex": "$\\frac{9}{4}$",
+    "answer_number": "9/4",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "4.4.5 ",
+    "comment": " "
+}

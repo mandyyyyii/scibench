@@ -1,0 +1,9 @@
+{
+    "problem_text": "Use the graph of $f$ to estimate smallest value of $c$ that satisfy the conclusion of the Mean Value Theorem for the interval $[0,8]$.",
+    "answer_latex": " 0.3",
+    "answer_number": "0.3",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "4.2.7 ",
+    "comment": " "
+}

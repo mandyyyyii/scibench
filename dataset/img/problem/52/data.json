@@ -1,0 +1,9 @@
+{
+    "problem_text": "A table of values of an increasing function $f$ is shown. Use the table to find lower estimates for $\\int_{10}^{30} f(x) d x$.",
+    "answer_latex": " -64",
+    "answer_number": "-64",
+    "unit": " ",
+    "source": "calculus",
+    "problemid": "5.2.7 ",
+    "comment": " "
+}
