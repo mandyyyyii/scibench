@@ -12,7 +12,7 @@ capabilities. This process offers a fine-grained understanding of where the mode
 ## Update
 - Our paper has been accepted for **ICML 2024**.
 - Our dataset is now accessible at [Huggingface Datasets](https://huggingface.co/datasets/xw27/scibench). 
-- The multimodal dataset is available in the `./data/img` folder. 
+- The multimodal dataset is available in the `./dataset/img` folder. 
 - Our dataset has been updated with minor changes. The previous version can be accessed in the "old" branch. For the latest results based on our most current dataset, please visit our [website](https://scibench-ucla.github.io).
 
 ## Data
@@ -23,7 +23,7 @@ Each file stands for one textbook, which is fully elaborated in the paper.
 
 ```
 subject='atkins'
-with open("./data/original/{}.json".format(subject), encoding='utf-8') as json_file:
+with open("./dataset/original/{}.json".format(subject), encoding='utf-8') as json_file:
     problems=json.load(json_file)
 
 ```
